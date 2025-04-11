@@ -4,8 +4,8 @@ const mysql = require('mysql2');
 // DB configuration
 const dbConfig = {
     host: '10.0.116.125',
-    user: 'insta',
-    password: 'tempPass',
+    user: 'cs432g10',
+    password: 'NzLbX7mT',
     database: 'cs432cims'
 };
 
