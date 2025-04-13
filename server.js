@@ -6,6 +6,12 @@ const { login } = require('./controller/login');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const { isAuth } = require('./controller/isAuth');
+const { isAuthenticated } = require('./middleware/authMiddleware');
+const { isAdmin } = require('./middleware/authorize');
+const { someAdminController } = require('./controller/adminDash');
+const { deleteMember } = require('./controller/deleteMember');
+const { addMember } = require('./controller/addMember');
+const { databaseQuery } = require('./controller/databaseQuery');
 // import { authenticate } from './middleware/auth.js';
 // import { isAuth } from './controller/isAuth.js';
 
@@ -53,6 +59,14 @@ app.post("/signup", signup);
 app.post("/login",login);
 
 app.get("/isAuth", isAuth);
+
+// Admine routes
+app.get("/admin/dashboard", isAuthenticated, isAdmin, someAdminController);
+app.patch("/admin/deletemember", isAuthenticated, isAdmin, deleteMember);
+app.patch("/admin/addmember", isAuthenticated, isAdmin, addMember);
+app.post("/admin/query", isAuthenticated, isAdmin, databaseQuery);
+
+
 
 // 🎧 Start the server
 const PORT =4000

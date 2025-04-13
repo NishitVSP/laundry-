@@ -1,41 +1,39 @@
-// laundrymanagement/middleware/auth.js
-import jwt from 'jsonwebtoken';
 import { connection } from '../dbconnection/connection.js';
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
 
-export const authenticate = (req, res, next) => {
+dotenv.config();
+
+export const isAuthenticated = (req, res, next) => {
+  const authHeader = req.headers.authorization;
+  const token = authHeader?.split(' ')[1];
+
+  if (!token) return res.status(401).json({ error: "No session found" });
+
+  const JWT_SECRET = process.env.JWTPRIVATEKEY;
+
+  let decoded;
   try {
-    const token = req.body?.token || req.headers.authorization?.split(' ')[1];
-    
-    if (!token) return res.status(401).json({ error: "No session found" });
-
-    // Verify JWT structure first
-    const decoded = jwt.verify(token, process.env.JWTPRIVATEKEY);
-    
-    // Check database session validity
-    const checkQuery = `
-      SELECT Expiry 
-      FROM Login 
-      WHERE MemberID = ? AND Session = ?
-    `;
-
-    connection.query(
-      checkQuery,
-      [decoded.memberId, token],
-      (err, results) => {
-        if (err) return res.status(500).json({ error: "Database error" });
-        if (results.length === 0) return res.status(401).json({ error: "Invalid session token" });
-        
-        const expiry = results[0].Expiry;
-        if (Date.now() >= expiry * 1000) {
-          return res.status(401).json({ error: "Session expired" });
-        }
-
-        req.user = decoded;
-        next();
-      }
-    );
-  } catch (error) {
-    console.error('Auth error:', error);
-    return res.status(401).json({ error: "Invalid session token" });
+    decoded = jwt.verify(token, JWT_SECRET);
+  } catch (err) {
+    const errorMessage = err.name === 'TokenExpiredError' ? "Session expired" : "Invalid session token";
+    return res.status(401).json({ error: errorMessage });
   }
+
+  const { memberId, username, role } = decoded;
+
+  const query = "SELECT Expiry FROM Login WHERE MemberID = ? AND Session = ?";
+  connection.query(query, [memberId, token], (err, results) => {
+    if (err) return res.status(500).json({ error: "Database error" });
+    if (!results.length) return res.status(401).json({ error: "Invalid session token" });
+
+    const expiry = results[0].Expiry;
+    if (Date.now() >= expiry * 1000) {
+      return res.status(401).json({ error: "Session expired" });
+    }
+
+    // Attach user to request for downstream use
+    req.user = { memberId, username, role };
+    next();
+  });
 };
