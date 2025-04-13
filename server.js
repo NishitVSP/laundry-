@@ -5,6 +5,7 @@ const { signup } = require('./controller/signup');
 const { login } = require('./controller/login');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
+const { isAuth } = require('./controller/isAuth');
 // import { authenticate } from './middleware/auth.js';
 // import { isAuth } from './controller/isAuth.js';
 
@@ -45,11 +46,13 @@ app.get('/tables', (req, res) => {
 
 
         res.status(200).json({ tables });
-    });
+    }); 
 });
 
 app.post("/signup", signup);
 app.post("/login",login);
+
+app.get("/isAuth", isAuth);
 
 // 🎧 Start the server
 const PORT =4000

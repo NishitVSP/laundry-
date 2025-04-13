@@ -46,7 +46,7 @@ const signup = async (req, res) => {
           }
 
           // 4. Create JWT token
-          const tokenPayload = { memberId, email, role };
+          const tokenPayload = { memberId, username, role };
           const token = jwt.sign(tokenPayload, JWT_SECRET, { expiresIn: JWT_EXPIRY });
           
           // 5. Get token expiration timestamp
@@ -68,14 +68,14 @@ const signup = async (req, res) => {
                 console.error('Session update error:', updateErr);
                 return res.status(201).json({
                   message: 'Signup completed with partial success - session not saved',
-                  token
+                  "session token" : token
                 });
               }
 
               // Final success response
               return res.status(201).json({
                 message: 'Signup successful. Member, login, group mapping, and session created.',
-                token
+                "session token": token
               });
             }
           );
