@@ -24,7 +24,7 @@ const signup = async (req, res) => {
     connection.query(memberQuery, [username, email, dob], (err, result) => {
       if (err) {
         console.error('Error inserting into members:', err);
-        return res.status(500).json({ error: 'Failed to add member' });
+        return res.status(500).json({ error: err.message });
       }
 
       const memberId = result.insertId;

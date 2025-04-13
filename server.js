@@ -4,10 +4,13 @@ const { connect, connection } = require('./dbconnection/connection');
 const { signup } = require('./controller/signup');
 const { login } = require('./controller/login');
 const cors = require('cors');
-
+const cookieParser = require('cookie-parser');
+// import { authenticate } from './middleware/auth.js';
+// import { isAuth } from './controller/isAuth.js';
 
 const app = express();
 app.use(express.json());
+app.use(cookieParser())
 app.use(cors({
     origin: 'http://localhost:3000', // Replace with your Next.js frontend URL
     credentials: true, // If you're using cookies or authorization headers
@@ -21,8 +24,14 @@ connect().catch((err) => {
 
 // ✅ Test root route
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello, you are welcome' });
+    res.json({ message: "Welcome to test apis" });
 });
+
+// Protected endpoints
+// app.get('/isAuth', authenticate, isAuth);
+// app.post('/updateLaundryStatus', authenticate, (req, res) => {
+//   // Your protected business logic here
+// });
 
 // ✅ Route to show tables
 app.get('/tables', (req, res) => {

@@ -70,16 +70,16 @@ const login = async (req, res) => {
             });
           }
 
-          // 6. Return successful response
-          return res.status(200).json({
+        // Updated login response
+      return res.status(200).json({
             message: 'Login successful',
-            token,
+            "session token": token, // Match documentation key naming
             user: {
-              email,
-              role: Role,
-              memberId: MemberID
+                username: decoded.email, // Map to expected username field
+                role: Role
             }
-          });
+        });
+  
         }
       );
     });
