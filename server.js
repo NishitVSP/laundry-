@@ -1,4 +1,4 @@
-//  /server.js
+// laundrymanagement\server.js
 const express = require('express');
 const { connect, connection } = require('./dbconnection/connection');
 const { signup } = require('./controller/signup');

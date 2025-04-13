@@ -6,8 +6,10 @@ const dbConfig = {
     host: '10.0.116.125',
     user: 'cs432g10',
     password: 'NzLbX7mT',
-    database: 'cs432cims'
+    database: 'cs432g10'
 };
+
+
 
 // Create connection
 const connection = mysql.createConnection(dbConfig);
