@@ -1,10 +1,10 @@
-import { connection } from '../dbconnection/connection.js';
+import { connection2 } from '../dbconnection/connection.js';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-export const isAuthenticated = (req, res, next) => {
+ let isAuthenticated = (req, res, next) => {
   const authHeader = req.headers.authorization;
   const token = authHeader?.split(' ')[1];
 
@@ -23,7 +23,7 @@ export const isAuthenticated = (req, res, next) => {
   const { memberId, username, role } = decoded;
 
   const query = "SELECT Expiry FROM Login WHERE MemberID = ? AND Session = ?";
-  connection.query(query, [memberId, token], (err, results) => {
+  connection2.query(query, [memberId, token], (err, results) => {
     if (err) return res.status(500).json({ error: "Database error" });
     if (!results.length) return res.status(401).json({ error: "Invalid session token" });
 
@@ -37,3 +37,4 @@ export const isAuthenticated = (req, res, next) => {
     next();
   });
 };
+export { isAuthenticated };

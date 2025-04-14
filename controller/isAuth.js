@@ -1,4 +1,4 @@
-import { connection } from '../dbconnection/connection.js';
+import { connection2 } from '../dbconnection/connection.js';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
@@ -19,7 +19,7 @@ export const isAuth = (req, res) => {
   const { memberId, username, role } = decoded;
   const query = "SELECT Expiry FROM Login WHERE MemberID = ? AND Session = ?";
 
-  connection.query(query, [memberId, token], (err, results) => {
+  connection2.query(query, [memberId, token], (err, results) => {
     console.log((err, results));
     
     if (err) return res.status(500).json({ error: "Database error" });

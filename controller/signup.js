@@ -1,121 +1,23 @@
-/*
 // laundrymanagement\controller\signup.js
-
-import { connection } from '../dbconnection/connection.js';
 import bcrypt from 'bcrypt';
 import dotenv from 'dotenv';
 dotenv.config();
 import jwt from 'jsonwebtoken';
+import { connection1, connection2 } from '../dbconnection/connection.js';
+
 
 const JWT_SECRET = process.env.JWTPRIVATEKEY;
 const JWT_EXPIRY = '2h';
 
-const signup = async (req, res) => {
-  try {
-    const { username, email, dob, password, role } = req.body;
-
-    if (!username || !email || !dob || !password || !role) {
-      return res.status(400).json({ error: 'Missing required fields' });
-    }
-
-    const hashedPassword = await bcrypt.hash(password, 5);
-
-    // 1. Insert into members table
-    const memberQuery = 'INSERT INTO members (UserName, emailID, DoB) VALUES (?, ?, ?)';
-    connection.query(memberQuery, [username, email, dob], (err, result) => {
-      if (err) {
-        console.error('Error inserting into members:', err);
-        return res.status(500).json({ error: err.message });
-      }
-
-      const memberId = result.insertId;
-
-      // 2. Insert into login table
-      const loginQuery = 'INSERT INTO Login (MemberID, Password, Role) VALUES (?, ?, ?)';
-      connection.query(loginQuery, [memberId, hashedPassword, role], (loginErr) => {
-        if (loginErr) {
-          console.error('Error inserting into login:', loginErr);
-          return res.status(500).json({ error: 'Failed to add login credentials' });
-        }
-
-        // 3. Insert into MemberGroupMapping table
-        const mappingQuery = 'INSERT INTO MemberGroupMapping (MemberID, GroupID) VALUES (?, ?)';
-        connection.query(mappingQuery, [memberId, 10], (mapErr) => {
-          if (mapErr) {
-            console.error('Error inserting into MemberGroupMapping:', mapErr);
-            return res.status(500).json({ error: 'Failed to add member to group' });
-          }
-
-          // 4. Create JWT token
-          const tokenPayload = { memberId, username, role };
-          const token = jwt.sign(tokenPayload, JWT_SECRET, { expiresIn: JWT_EXPIRY });
-          
-          // 5. Get token expiration timestamp
-          const decoded = jwt.decode(token);
-          const expiryTimestamp = decoded.exp;
-
-          // 6. Update login table with session and expiry
-          const updateQuery = `
-            UPDATE Login 
-            SET Session = ?, Expiry = ?
-            WHERE MemberID = ?
-          `;
-          
-          connection.query(
-            updateQuery,
-            [token, expiryTimestamp, memberId],
-            (updateErr) => {
-              if (updateErr) {
-                console.error('Session update error:', updateErr);
-                return res.status(201).json({
-                  message: 'Signup completed with partial success - session not saved',
-                  "session token" : token
-                });
-              }
-
-              // Final success response
-              return res.status(201).json({
-                message: 'Signup successful. Member, login, group mapping, and session created.',
-                "session token": token
-              });
-            }
-          );
-        });
-      });
-    });
-  } catch (error) {
-    console.error('Unexpected error in signup:', error);
-    res.status(500).json({ error: 'Internal server error' });
-  }
-};
-
-export { signup };
-*/
-
-// laundrymanagement\controller\signup.js
-
-import { connection } from '../dbconnection/connection.js';
-import bcrypt from 'bcrypt';
-import dotenv from 'dotenv';
-dotenv.config();
-import jwt from 'jsonwebtoken';
-
-const JWT_SECRET = process.env.JWTPRIVATEKEY;
-const JWT_EXPIRY = '2h';
-
-// Function to calculate age from date of birth
 function calculateAge(dateOfBirth) {
     const today = new Date();
-    const birthDate = new Date(dateOfBirth);
-    
+    const birthDate = new Date(dateOfBirth);    
     let age = today.getFullYear() - birthDate.getFullYear();
     const monthDifference = today.getMonth() - birthDate.getMonth();
     
-    // Adjust age if birthday hasn't occurred yet this year
     if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
         age--;
     }
-    
     return age;
 }
 
@@ -129,9 +31,9 @@ const signup = async (req, res) => {
 
         const hashedPassword = await bcrypt.hash(password, 5);
 
-        // 1. Insert into members table
+        // 1. Insert into CIMS members table (connection2)
         const memberQuery = 'INSERT INTO members (UserName, emailID, DoB) VALUES (?, ?, ?)';
-        connection.query(memberQuery, [username, email, dob], (err, result) => {
+        connection2.query(memberQuery, [username, email, dob], (err, result) => {
             if (err) {
                 console.error('Error inserting into members:', err);
                 return res.status(500).json({ error: err.message });
@@ -139,45 +41,16 @@ const signup = async (req, res) => {
 
             const memberId = result.insertId;
 
-            // 2. Insert into login table
+            // 2. Insert into CIMS login table (connection2)
             const loginQuery = 'INSERT INTO Login (MemberID, Password, Role) VALUES (?, ?, ?)';
-            connection.query(loginQuery, [memberId, hashedPassword, role], (loginErr) => {
+            connection2.query(loginQuery, [memberId, hashedPassword, role], (loginErr) => {
                 if (loginErr) {
                     console.error('Error inserting into login:', loginErr);
                     return res.status(500).json({ error: 'Failed to add login credentials' });
                 }
 
-                // 3. If role is admin, insert into staff table
-                if (role.toLowerCase() === 'admin') {
-                    // Calculate age from DoB
-                    const staffAge = calculateAge(dob);
-                    
-                    // Get current date for hire_date
-                    const hireDate = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
-                    
-                    // Insert into staff table
-                    const staffQuery = `
-                        INSERT INTO staff 
-                        (staff_id, staff_name, staff_image, staff_age, staff_position, staff_email, staff_phone, hire_date) 
-                        VALUES (?, ?, NULL, ?, NULL, ?, NULL, ?)
-                    `;
-                    
-                    connection.query(staffQuery, [memberId, username, staffAge, email, hireDate], (staffErr) => {
-                        if (staffErr) {
-                            console.error('Error inserting into staff:', staffErr);
-                            // Continue with the signup process even if staff insertion fails
-                            console.log('Staff record creation failed, but user account created successfully');
-                        } else {
-                            console.log('Staff record created successfully');
-                        }
-                        
-                        // Continue with MemberGroupMapping and token generation
-                        continueSignupProcess(res, memberId, username, role);
-                    });
-                } else {
-                    // If not admin, continue with MemberGroupMapping and token generation
-                    continueSignupProcess(res, memberId, username, role);
-                }
+                // Proceed with group mapping and laundry management DB entries
+                continueSignupProcess(res, memberId, username, role, dob, email);
             });
         });
     } catch (error) {
@@ -186,53 +59,68 @@ const signup = async (req, res) => {
     }
 };
 
-// Helper function to continue the signup process
-function continueSignupProcess(res, memberId, username, role) {
-    // 4. Insert into MemberGroupMapping table
+// Helper function for subsequent operations
+function continueSignupProcess(res, memberId, username, role, dob, email) {
+    // 3. Insert into CIMS MemberGroupMapping (connection2)
     const mappingQuery = 'INSERT INTO MemberGroupMapping (MemberID, GroupID) VALUES (?, ?)';
-    connection.query(mappingQuery, [memberId, 10], (mapErr) => {
+    connection2.query(mappingQuery, [memberId, 10], (mapErr) => {
         if (mapErr) {
             console.error('Error inserting into MemberGroupMapping:', mapErr);
             return res.status(500).json({ error: 'Failed to add member to group' });
         }
 
-        // 5. Create JWT token
-        const tokenPayload = { memberId, username, role };
-        const token = jwt.sign(tokenPayload, JWT_SECRET, { expiresIn: JWT_EXPIRY });
+        // 4. Insert into laundry management database (connection1)
+        const age = calculateAge(dob);
+        const targetTable = role.toLowerCase() === 'admin' ? 'staff' : 'customers';
         
-        // 6. Get token expiration timestamp
-        const decoded = jwt.decode(token);
-        const expiryTimestamp = decoded.exp;
-        
-        // 7. Update login table with session and expiry
-        const updateQuery = `
-            UPDATE Login
-            SET Session = ?, Expiry = ?
-            WHERE MemberID = ?
-        `;
-        
-        connection.query(
-            updateQuery,
-            [token, expiryTimestamp, memberId],
-            (updateErr) => {
-                if (updateErr) {
-                    console.error('Session update error:', updateErr);
-                    return res.status(201).json({
-                        message: 'Signup completed with partial success - session not saved',
-                        "session token": token
-                    });
-                }
-                
-                // Final success response
-                return res.status(201).json({
-                    message: 'Signup successful. Member, login, group mapping, and session created.',
-                    "session token": token
-                });
+        const baseQuery = role.toLowerCase() === 'admin' 
+            ? `INSERT INTO staff 
+               (staff_id, staff_name, staff_age, staff_email, hire_date) 
+               VALUES (?, ?, ?, ?, ?)`
+            : `INSERT INTO customers 
+               (customer_id, customer_name, Age, customer_email) 
+               VALUES (?, ?, ?, ?)`;
+
+        const queryParams = role.toLowerCase() === 'admin'
+            ? [memberId, username, age, email, new Date().toISOString().split('T')[0]]
+            : [memberId, username, age, email];
+
+        connection1.query(baseQuery, queryParams, (dbErr) => {
+            if (dbErr) {
+                console.error(`Error inserting into ${targetTable}:`, dbErr);
+                // Continue even if laundry management DB insertion fails
+            } else {
+                console.log(`Successfully created ${targetTable} record`);
             }
-        );
+
+            // 5. Generate and return JWT token
+            generateAndReturnToken(res, memberId, username, role);
+        });
+    });
+}
+
+function generateAndReturnToken(res, memberId, username, role) {
+    const tokenPayload = { memberId, username, role };
+    const token = jwt.sign(tokenPayload, JWT_SECRET, { expiresIn: JWT_EXPIRY });
+    const decoded = jwt.decode(token);
+    const expiryTimestamp = decoded.exp;
+
+    // Update CIMS login table (connection2)
+    const updateQuery = 'UPDATE Login SET Session = ?, Expiry = ? WHERE MemberID = ?';
+    connection2.query(updateQuery, [token, expiryTimestamp, memberId], (updateErr) => {
+        if (updateErr) {
+            console.error('Session update error:', updateErr);
+            return res.status(201).json({
+                message: 'Signup completed with partial success - session not saved',
+                "session token": token
+            });
+        }
+        
+        res.status(201).json({
+            message: 'Signup successful. All records created.',
+            "session token": token
+        });
     });
 }
 
 export { signup };
-
-
