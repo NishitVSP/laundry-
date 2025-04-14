@@ -63,7 +63,7 @@ app.get("/isAuth", isAuth);
 // Admine routes
 app.get("/admin/dashboard", isAuthenticated, isAdmin, someAdminController);
 app.patch("/admin/deletemember", isAuthenticated, isAdmin, deleteMember);
-app.patch("/admin/addmember", isAuthenticated, isAdmin, addMember);
+app.post("/admin/addmember", isAuthenticated, isAdmin, addMember);
 app.post("/admin/query", isAuthenticated, isAdmin, databaseQuery);
 
 
