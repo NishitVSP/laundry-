@@ -1,0 +1,6 @@
+[2025-04-14T17:33:39.213Z] AdminID: Unknown, SQL: DELETE FROM customers WHERE ID = ?, Params: [1261], Error: Unknown column 'ID' in 'where clause'
+[2025-04-14T17:33:58.322Z] AdminID: Unknown, SQL: DELETE FROM customers WHERE customer_id = ?, Params: [1261], Error: None
+[2025-04-14T17:34:55.479Z] AdminID: Unknown, SQL: show tables, Params: undefined, Error: None
+[2025-04-14T17:36:06.988Z] AdminID: Unknown, SQL: select * from staff, Params: undefined, Error: None
+[2025-04-14T17:51:49.184Z] AdminID: Unknown, SQL: select * from staff, Params: undefined, Error: None
+[2025-04-14T17:51:56.565Z] AdminID: Unknown, SQL: select * from customers, Params: undefined, Error: None

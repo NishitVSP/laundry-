@@ -1,3 +1,4 @@
+// laundrymanagement\controller\isAuth.js
 import { connection2 } from '../dbconnection/connection.js';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';

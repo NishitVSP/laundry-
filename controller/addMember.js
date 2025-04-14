@@ -1,3 +1,4 @@
+// laundrymanagement\controller\addMember.js
 import { connection2, connection1 } from '../dbconnection/connection.js';
 import bcrypt from 'bcrypt';
 
@@ -79,7 +80,7 @@ function continueSignupProcess(res, memberId, username, role, dob, email) {
         connection1.query(baseQuery, queryParams, (dbErr) => {
             if (dbErr) {
                 console.error(`Error inserting into ${targetTable}:`, dbErr);
-                // Continue even if laundry management DB insertion fails
+                
             } else {
                 console.log(`Successfully created ${targetTable} record`);
             }

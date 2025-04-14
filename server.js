@@ -10,8 +10,8 @@ import { isAdmin } from './middleware/authorize.js';
 import { addMember } from './controller/addMember.js';
 // import { someAdminController } from './controller/adminDash.js';
 import { deleteMember } from './controller/deleteMember.js';
-// import { databaseQuery } from './controller/databaseQuery.js';
-
+import { databaseQuery1 } from './controller/cs432g10Query.js';
+import { cs432queryController } from './controller/cs432queryController.js';
 
 const app = express();
 app.use(express.json());
@@ -68,5 +68,5 @@ app.get('/isAuth', isAuth);
 // app.get('/admin/dashboard', isAuthenticated, isAdmin, someAdminController);
 app.patch('/admin/deletemember', isAuthenticated, isAdmin, deleteMember);
 app.post('/admin/addmember', isAuthenticated, isAdmin, addMember);
-// app.post('/admin/query', isAuthenticated, isAdmin, databaseQuery);
-
+app.post('/admin/query1', isAuthenticated, isAdmin, databaseQuery1);
+app.post('/admin/query2', isAuthenticated, isAdmin, cs432queryController);
