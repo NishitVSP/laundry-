@@ -34,6 +34,7 @@ dotenv.config();
 
     // Attach user to request for downstream use
     req.user = { memberId, username, role };
+    console.log(req.user);
     next();
   });
 };

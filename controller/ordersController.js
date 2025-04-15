@@ -58,16 +58,82 @@ export const placeOrder = (req, res) => {
 
 // List all orders (admin) or user's orders
 export const listOrders = (req, res) => {
-    const isAdmin = req.user?.role === 'admin'; // assume you add user in middleware
-    const customer_id = req.user?.id;
+    console.log(req.user);
+
+    const isAdmin = req.user?.role === 'admin';
+    const customer_id = req.user?.memberId;
+    console.log(`User ID: ${customer_id}, Role: ${req.user?.role}`);
 
     const query = isAdmin
-        ? `SELECT * FROM orders`
-        : `SELECT * FROM orders WHERE customer_id = ?`;
+        ? `
+            SELECT 
+                o.order_id,
+                o.customer_id,
+                o.order_status,
+                o.Total_Amount,
+                o.Pickup_Date,
+                o.Delivery_Date,
+                i.item_type,
+                c.Quantity
+            FROM orders o
+            JOIN consists c ON o.order_id = c.order_id
+            JOIN items i ON c.item_id = i.item_id
+            ORDER BY o.order_id DESC
+        `
+        : `
+            SELECT 
+                o.order_id,
+                o.customer_id,
+                o.order_status,
+                o.Total_Amount,
+                o.Pickup_Date,
+                o.Delivery_Date,
+                i.item_type,
+                c.Quantity
+            FROM orders o
+            JOIN consists c ON o.order_id = c.order_id
+            JOIN items i ON c.item_id = i.item_id
+            WHERE o.customer_id = ?
+            ORDER BY o.order_id DESC
+        `;
 
     connection1.query(query, isAdmin ? [] : [customer_id], (err, results) => {
-        if (err) return res.status(500).json({ error: 'Failed to fetch orders' });
-        return res.status(200).json(results);
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: 'Failed to fetch orders' });
+        }
+
+        // Optionally group items by order
+        const grouped = results.reduce((acc, row) => {
+            const {
+                order_id,
+                customer_id,
+                order_status,
+                Total_Amount,
+                Pickup_Date,
+                Delivery_Date,
+                item_type,
+                Quantity
+            } = row;
+
+            if (!acc[order_id]) {
+                acc[order_id] = {
+                    order_id,
+                    customer_id,
+                    order_status,
+                    Total_Amount,
+                    Pickup_Date,
+                    Delivery_Date,
+                    items: []
+                };
+            }
+
+            acc[order_id].items.push({ item_type, Quantity });
+            return acc;
+        }, {});
+
+        const response = Object.values(grouped);
+        return res.status(200).json(response);
     });
 };
 
@@ -81,14 +147,28 @@ export const updateOrderStatus = (req, res) => {
         return res.status(400).json({ error: 'Invalid status' });
     }
 
-    const query = `UPDATE orders SET order_status = ? WHERE order_id = ?`;
-    connection1.query(query, [status, id], (err, result) => {
+    // Base query
+    let query = `UPDATE orders SET order_status = ?`;
+    const queryParams = [status];
+
+    // If status is "Delivered", include Delivery_Date
+    if (status === 'Delivered') {
+        query += `, Delivery_Date = ?`;
+        const currentDate = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
+        queryParams.push(currentDate);
+    }
+
+    query += ` WHERE order_id = ?`;
+    queryParams.push(id);
+
+    connection1.query(query, queryParams, (err, result) => {
         if (err) return res.status(500).json({ error: 'Failed to update order status' });
 
         if (result.affectedRows === 0) {
             return res.status(404).json({ error: 'Order not found' });
         }
 
-        return res.status(200).json({ message: 'Order status updated' });
+        return res.status(200).json({ message: 'Order status updated successfully' });
     });
 };
+

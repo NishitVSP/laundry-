@@ -44,7 +44,7 @@ const login = async (req, res) => {
       const token = jwt.sign(
         { memberId: MemberID, username, role: Role },
         process.env.JWTPRIVATEKEY,
-        { expiresIn: process.env.JWT_EXPIRY || '1h' }
+        { expiresIn: process.env.JWT_EXPIRY || '1d' }
       );
 
       // 4. Decode token for expiry (unchanged)

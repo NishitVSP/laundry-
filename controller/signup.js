@@ -7,7 +7,7 @@ import { connection1, connection2 } from '../dbconnection/connection.js';
 
 
 const JWT_SECRET = process.env.JWTPRIVATEKEY;
-const JWT_EXPIRY = '2h';
+const JWT_EXPIRY = '1d';
 
 function calculateAge(dateOfBirth) {
     const today = new Date();

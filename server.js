@@ -63,6 +63,7 @@ app.post('/login', login);
 
 // Authentication route
 app.get('/isAuth', isAuth);
+app.get('/checkAdmin', isAdmin);
 
 // Admin routes (using connection2 for cs432cims)
 // app.get('/admin/dashboard', isAuthenticated, isAdmin, someAdminController);
@@ -70,3 +71,13 @@ app.patch('/admin/deletemember', isAuthenticated, isAdmin, deleteMember);
 app.post('/admin/addmember', isAuthenticated, isAdmin, addMember);
 app.post('/admin/query1', isAuthenticated, isAdmin, databaseQuery1);
 app.post('/admin/query2', isAuthenticated, isAdmin, cs432queryController);
+
+// order router 
+import orderRouter from './routes/ordersRoutes.js';
+import complaints from './routes/complaintsRoutes.js';
+import portfolio from './routes/portfolioRoutes.js';
+import payment from './routes/paymentRoutes.js';
+app.use('/', orderRouter);
+app.use('/', complaints);
+app.use('/protfolio', portfolio); // localhost:4000/protfolio/(name)
+app.use('/payment', payment); 

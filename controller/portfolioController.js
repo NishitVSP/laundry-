@@ -3,7 +3,7 @@ import { connection1 } from '../dbconnection/connection.js';
 
 // Get portfolio for a specific user (their orders, complaints, and payments)
 export const getUserPortfolio = (req, res) => {
-    const customer_id = req.user.id;
+    const customer_id = req.user.memberId;
 
     const query = `
         SELECT 
@@ -28,6 +28,8 @@ export const getUserPortfolio = (req, res) => {
     `;
 
     connection1.query(query, [customer_id, customer_id], (err, results) => {
+        console.log(results);
+        
         if (err) return res.status(500).json({ error: 'Failed to fetch portfolio' });
         return res.status(200).json(results);
     });
