@@ -9,13 +9,6 @@ const __dirname = path.dirname(__filename);
 const logFile = path.join(__dirname, './api.log');
 const timestamp = new Date().toISOString();
 
-/*
-const log_it = (message, isSessionValid) => {
-  logToFile(message); // Always log locally
-  if (isSessionValid) logToServer(message); // Log to server only if session valid
-};
-*/
-
 // Log to local file
 const logToFile = (message) => {
   fs.appendFile(logFile, `${timestamp} - ${message}\n`, (err) => {
@@ -34,10 +27,6 @@ const logToServer = async (description) => {
     console.error('Server log failed:', err);
   }
 };
-
-// Unified logger
-//module.export = {log_it};
-
 
 // Unified logger
 const logger = (message, isSessionValid) => {

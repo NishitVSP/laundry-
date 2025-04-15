@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 import jwt from 'jsonwebtoken';
 import { connection1, connection2 } from '../dbconnection/connection.js';
-
+import logger from '../utils/logger.js';
 
 const JWT_SECRET = process.env.JWTPRIVATEKEY;
 const JWT_EXPIRY = '1d';
@@ -23,10 +23,18 @@ function calculateAge(dateOfBirth) {
 
 const signup = async (req, res) => {
     try {
-        const { username, email, dob, password, role } = req.body;
+        const { username, email, dob, password, role, passkey } = req.body;
+        logger(`Signup attempt - Username: ${username}, Email: ${email}, Role: ${role}`, false);
 
         if (!username || !email || !dob || !password || !role) {
+            logger(`Signup failed - Missing required fields`, false);
             return res.status(400).json({ error: 'Missing required fields' });
+        }
+        if (role.toLowerCase() === 'admin') {
+            if (!passkey || passkey !== process.env.ADMIN_PASSKEY) {
+                logger(`Admin signup failed - Invalid or missing passkey`, false);
+                return res.status(403).json({ error: 'Invalid or missing admin passkey' });
+            }
         }
 
         const hashedPassword = await bcrypt.hash(password, 5);
@@ -36,18 +44,23 @@ const signup = async (req, res) => {
         connection2.query(memberQuery, [username, email, dob], (err, result) => {
             if (err) {
                 console.error('Error inserting into members:', err);
+                logger(`Error inserting into members table: ${err.message}`, false);
                 return res.status(500).json({ error: err.message });
             }
 
             const memberId = result.insertId;
+            logger(`Member created successfully - MemberID: ${memberId}`, false);
 
             // 2. Insert into CIMS login table (connection2)
             const loginQuery = 'INSERT INTO Login (MemberID, Password, Role) VALUES (?, ?, ?)';
             connection2.query(loginQuery, [memberId, hashedPassword, role], (loginErr) => {
                 if (loginErr) {
                     console.error('Error inserting into login:', loginErr);
+                    logger(`Error inserting into login table - MemberID: ${memberId}, Error: ${loginErr.message}`, false);
                     return res.status(500).json({ error: 'Failed to add login credentials' });
                 }
+                
+                logger(`Login credentials created successfully - MemberID: ${memberId}`, false);
 
                 // Proceed with group mapping and laundry management DB entries
                 continueSignupProcess(res, memberId, username, role, dob, email);
@@ -55,21 +68,25 @@ const signup = async (req, res) => {
         });
     } catch (error) {
         console.error('Unexpected error in signup:', error);
+        logger(`Unexpected error in signup: ${error.message}`, false);
         res.status(500).json({ error: 'Internal server error' });
     }
 };
 
 // Helper function for subsequent operations
 function continueSignupProcess(res, memberId, username, role, dob, email) {
-    // 3. Insert into CIMS MemberGroupMapping (connection2)
+    // Insert into CIMS MemberGroupMapping (connection2)
     const mappingQuery = 'INSERT INTO MemberGroupMapping (MemberID, GroupID) VALUES (?, ?)';
     connection2.query(mappingQuery, [memberId, 10], (mapErr) => {
         if (mapErr) {
             console.error('Error inserting into MemberGroupMapping:', mapErr);
+            logger(`Error inserting into MemberGroupMapping - MemberID: ${memberId}, Error: ${mapErr.message}`, false);
             return res.status(500).json({ error: 'Failed to add member to group' });
         }
+        
+        logger(`Member added to group successfully - MemberID: ${memberId}, GroupID: 10`, false);
 
-        // 4. Insert into laundry management database (connection1)
+        // Insert into laundry management database (connection1)
         const age = calculateAge(dob);
         const targetTable = role.toLowerCase() === 'admin' ? 'staff' : 'customers';
         
@@ -88,13 +105,26 @@ function continueSignupProcess(res, memberId, username, role, dob, email) {
         connection1.query(baseQuery, queryParams, (dbErr) => {
             if (dbErr) {
                 console.error(`Error inserting into ${targetTable}:`, dbErr);
+                logger(`Error inserting into ${targetTable} - MemberID: ${memberId}, Error: ${dbErr.message}`, false);
                 // Continue even if laundry management DB insertion fails
             } else {
                 console.log(`Successfully created ${targetTable} record`);
+                logger(`Successfully created ${targetTable} record - MemberID: ${memberId}`, false);
             }
 
-            // 5. Generate and return JWT token
-            generateAndReturnToken(res, memberId, username, role);
+            // Insert into images table
+            const insertImageQuery = `INSERT INTO images (MemberID, ImagePath) VALUES (?, ?)`;
+            connection1.query(insertImageQuery, [memberId, 'None'], (imgErr) => {
+                if (imgErr) {
+                    console.error('Error inserting into images table:', imgErr);
+                    logger(`Failed to insert into images - MemberID: ${memberId}, Error: ${imgErr.message}`, false);
+                } else {
+                    logger(`Image record inserted successfully - MemberID: ${memberId}`, false);
+                }
+
+                //  Generate and return JWT token
+                generateAndReturnToken(res, memberId, username, role);
+            });
         });
     });
 }
@@ -110,12 +140,14 @@ function generateAndReturnToken(res, memberId, username, role) {
     connection2.query(updateQuery, [token, expiryTimestamp, memberId], (updateErr) => {
         if (updateErr) {
             console.error('Session update error:', updateErr);
+            logger(`Session update error - MemberID: ${memberId}, Error: ${updateErr.message}`, false);
             return res.status(201).json({
                 message: 'Signup completed with partial success - session not saved',
                 "session token": token
             });
         }
         
+        logger(`Signup completed successfully - MemberID: ${memberId}, Username: ${username}, Role: ${role}`, true);
         res.status(201).json({
             message: 'Signup successful. All records created.',
             "session token": token

@@ -1,9 +1,11 @@
 // controller/portfolioController.js
 import { connection1 } from '../dbconnection/connection.js';
+import logger from '../utils/logger.js';
 
 // Get portfolio for a specific user (their orders, complaints, and payments)
 export const getUserPortfolio = (req, res) => {
     const customer_id = req.user.memberId;
+    logger(`Fetching user portfolio - Customer ID: ${customer_id}`, req.user?.isAuthenticated);
 
     const query = `
         SELECT 
@@ -30,13 +32,20 @@ export const getUserPortfolio = (req, res) => {
     connection1.query(query, [customer_id, customer_id], (err, results) => {
         console.log(results);
         
-        if (err) return res.status(500).json({ error: 'Failed to fetch portfolio' });
+        if (err) {
+            logger(`Failed to fetch portfolio - Customer ID: ${customer_id}, Error: ${err.message}`, req.user?.isAuthenticated);
+            return res.status(500).json({ error: 'Failed to fetch portfolio' });
+        }
+        
+        logger(`Portfolio retrieved successfully - Customer ID: ${customer_id}, Items: ${results.length}`, req.user?.isAuthenticated);
         return res.status(200).json(results);
     });
 };
 
 // Get portfolios for all users (admin)
 export const getAllPortfolios = (req, res) => {
+    logger(`Fetching all portfolios - User role: ${req.user?.role}`, req.user?.isAuthenticated);
+    
     const query = `
         SELECT 
             cu.customer_id,
@@ -62,7 +71,12 @@ export const getAllPortfolios = (req, res) => {
     `;
 
     connection1.query(query, (err, results) => {
-        if (err) return res.status(500).json({ error: 'Failed to fetch portfolios' });
+        if (err) {
+            logger(`Failed to fetch all portfolios - Error: ${err.message}`, req.user?.isAuthenticated);
+            return res.status(500).json({ error: 'Failed to fetch portfolios' });
+        }
+        
+        logger(`All portfolios retrieved successfully - Count: ${results.length}`, req.user?.isAuthenticated);
         return res.status(200).json(results);
     });
 };

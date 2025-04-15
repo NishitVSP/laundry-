@@ -1,14 +1,16 @@
 'use client';
 // laundrymanagement\dbfront\src\app\login\page.jsx
+
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { jwtDecode } from 'jwt-decode';
-
 import Link from 'next/link';
-let baseurl ="http://localhost:4000"
+
+let baseurl = "http://localhost:4000";
+
 export default function LoginPage() {
   const router = useRouter();
-  const [form, setForm] = useState({ email: '', password: '' });
+  const [form, setForm] = useState({ username: '', password: '' });
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -18,8 +20,6 @@ export default function LoginPage() {
     e.preventDefault();
     console.log(form);
 
-
-
     const res = await fetch(`${baseurl}/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -27,16 +27,14 @@ export default function LoginPage() {
     });
 
     const data = await res.json();
-console.log(data)
-
+    console.log(data);
 
     if (res.ok) {
-      localStorage.setItem('token', data.token); // Store JWT token
-      let token = localStorage.getItem("token");
-      const decoded = await jwtDecode(token);
-      console.log(decoded);
-    //   alert('Login successful!');
-    //   router.push('/dashboard');
+      localStorage.setItem('token', data['session token']);
+      const decoded = jwtDecode(data['session token']);
+      localStorage.setItem('role', decoded.role);
+      alert('Login successful! Redirecting...');
+      router.push('/dashboard');
     } else {
       alert(data.error || 'Login failed');
     }
@@ -46,7 +44,7 @@ console.log(data)
     <div className="p-10 max-w-md mx-auto">
       <h1 className="text-2xl font-bold mb-4">Login</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
-        <input name="email" placeholder="Email" onChange={handleChange} className="w-full p-2 border" />
+        <input name="username" placeholder="Email" onChange={handleChange} className="w-full p-2 border" />
         <input name="password" type="password" placeholder="Password" onChange={handleChange} className="w-full p-2 border" />
         <button type="submit" className="bg-green-600 text-white p-2 w-full">Login</button>
       </form>

@@ -1,15 +1,19 @@
 // controller/ordersController.js
 import { connection1 } from '../dbconnection/connection.js';
+import logger from '../utils/logger.js';
 
 // Place new order
 export const placeOrder = (req, res) => {
-    const { customer_id, items, pickup_date } = req.body;
+    const customer_id = req.user.memberId;
+    const { items, pickup_date } = req.body;
 
-    if (!customer_id || !Array.isArray(items) || items.length === 0 || !pickup_date) {
+    logger(`New order request - Customer ID: ${customer_id}`, req.user?.isAuthenticated);
+
+    if (!req.user || !Array.isArray(items) || items.length === 0 || !pickup_date) {
+        logger(`Invalid order input - Customer ID: ${customer_id}`, req.user?.isAuthenticated);
         return res.status(400).json({ error: 'Invalid input' });
     }
 
-    // Calculate total amount
     const itemIds = items.map(i => i.item_id);
     const quantities = items.reduce((map, item) => {
         map[item.item_id] = item.quantity;
@@ -20,6 +24,7 @@ export const placeOrder = (req, res) => {
 
     connection1.query(getPricesQuery, itemIds, (err, results) => {
         if (err || results.length !== itemIds.length) {
+            logger(`Invalid items or DB error - Customer ID: ${customer_id}`, req.user?.isAuthenticated);
             return res.status(400).json({ error: 'Invalid item(s) or database error' });
         }
 
@@ -28,27 +33,34 @@ export const placeOrder = (req, res) => {
             total += Price * quantities[item_id];
         });
 
-        // Insert into orders table
         const orderData = [customer_id, 'Pending', total, pickup_date];
         const orderQuery = `INSERT INTO orders (customer_id, order_status, Total_Amount, Pickup_Date) VALUES (?, ?, ?, ?)`;
 
         connection1.query(orderQuery, orderData, (err, orderResult) => {
-            if (err) return res.status(500).json({ error: 'Order creation failed' });
+            if (err) {
+                logger(`Order creation failed - Customer ID: ${customer_id}`, req.user?.isAuthenticated);
+                return res.status(500).json({ error: 'Order creation failed' });
+            }
 
             const order_id = orderResult.insertId;
 
-            // Insert into consists
             const consistsValues = items.map(item => [order_id, item.item_id, item.quantity]);
             connection1.query(`INSERT INTO consists (order_id, item_id, Quantity) VALUES ?`, [consistsValues], (err) => {
-                if (err) return res.status(500).json({ error: 'Items association failed' });
+                if (err) {
+                    logger(`Items association failed - Order ID: ${order_id}`, req.user?.isAuthenticated);
+                    return res.status(500).json({ error: 'Items association failed' });
+                }
 
-                // Insert into places
                 const date = new Date().toISOString().split('T')[0];
                 connection1.query(`INSERT INTO places (customer_id, order_id, order_date) VALUES (?, ?, ?)`,
                     [customer_id, order_id, date],
                     (err) => {
-                        if (err) return res.status(500).json({ error: 'Order linking failed' });
+                        if (err) {
+                            logger(`Order linking failed - Order ID: ${order_id}`, req.user?.isAuthenticated);
+                            return res.status(500).json({ error: 'Order linking failed' });
+                        }
 
+                        logger(`Order placed successfully - Order ID: ${order_id}`, req.user?.isAuthenticated);
                         return res.status(201).json({ message: 'Order placed successfully', order_id });
                     });
             });
@@ -56,12 +68,14 @@ export const placeOrder = (req, res) => {
     });
 };
 
+
 // List all orders (admin) or user's orders
 export const listOrders = (req, res) => {
     console.log(req.user);
 
     const isAdmin = req.user?.role === 'admin';
     const customer_id = req.user?.memberId;
+    logger(`Listing orders - User ID: ${customer_id}, Role: ${req.user?.role}`, req.user?.isAuthenticated);
     console.log(`User ID: ${customer_id}, Role: ${req.user?.role}`);
 
     const query = isAdmin
@@ -100,6 +114,7 @@ export const listOrders = (req, res) => {
     connection1.query(query, isAdmin ? [] : [customer_id], (err, results) => {
         if (err) {
             console.error(err);
+            logger(`Failed to fetch orders - User ID: ${customer_id}`, req.user?.isAuthenticated);
             return res.status(500).json({ error: 'Failed to fetch orders' });
         }
 
@@ -133,6 +148,7 @@ export const listOrders = (req, res) => {
         }, {});
 
         const response = Object.values(grouped);
+        logger(`Orders retrieved successfully - User ID: ${customer_id}, Count: ${response.length}`, req.user?.isAuthenticated);
         return res.status(200).json(response);
     });
 };
@@ -141,9 +157,12 @@ export const listOrders = (req, res) => {
 export const updateOrderStatus = (req, res) => {
     const { id } = req.params;
     const { status } = req.body;
+    
+    logger(`Order status update request - Order ID: ${id}, New Status: ${status}`, req.user?.isAuthenticated);
 
     const allowedStatuses = ['Picked up', 'Pending', 'Delivered'];
     if (!allowedStatuses.includes(status)) {
+        logger(`Invalid status update - Order ID: ${id}, Status: ${status}`, req.user?.isAuthenticated);
         return res.status(400).json({ error: 'Invalid status' });
     }
 
@@ -162,12 +181,17 @@ export const updateOrderStatus = (req, res) => {
     queryParams.push(id);
 
     connection1.query(query, queryParams, (err, result) => {
-        if (err) return res.status(500).json({ error: 'Failed to update order status' });
+        if (err) {
+            logger(`Failed to update order status - Order ID: ${id}`, req.user?.isAuthenticated);
+            return res.status(500).json({ error: 'Failed to update order status' });
+        }
 
         if (result.affectedRows === 0) {
+            logger(`Order not found - Order ID: ${id}`, req.user?.isAuthenticated);
             return res.status(404).json({ error: 'Order not found' });
         }
 
+        logger(`Order status updated successfully - Order ID: ${id}, New Status: ${status}`, req.user?.isAuthenticated);
         return res.status(200).json({ message: 'Order status updated successfully' });
     });
 };

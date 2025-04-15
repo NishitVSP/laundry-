@@ -1,6 +1,3 @@
-
-// laundrymanagement\dbfront\src\app\signup\page.jsx
-
 'use client';
 
 import { useState } from 'react';
@@ -16,6 +13,7 @@ export default function SignupPage() {
     dob: '',
     password: '',
     role: 'user',
+    passkey: '', // newly added
   });
 
   const handleChange = (e) => {
@@ -25,30 +23,34 @@ export default function SignupPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const payload = { ...form };
+    if (payload.role !== 'admin') delete payload.passkey; // remove if not needed
+
     try {
+      console.log('Submitting signup form:', payload); // Debugging line
       const res = await fetch('http://localhost:4000/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify(payload),
       });
 
       const data = await res.json();
 
       if (res.ok) {
-        if (data.token) {
-          localStorage.setItem('token', data.token);
-          alert('Signup successful! Redirecting to dashboard...');
+        if (data['session token']) {
+          localStorage.setItem('token', data['session token']);
+          alert('Signup successful! Redirecting...');
           router.push('/dashboard');
         } else {
-          alert('Signup successful, but no token received. Please login manually.');
+          alert('Signup successful, but no session token received. Please login manually.');
           router.push('/login');
         }
       } else {
-        alert(data.error || 'Signup failed');
+        alert(data.error || 'Signup failed'); // show error from API
       }
     } catch (err) {
       console.error('Signup error:', err);
-      alert('Something went wrong');
+      alert('Something went wrong during signup');
     }
   };
 
@@ -56,51 +58,29 @@ export default function SignupPage() {
     <div className="p-10 max-w-md mx-auto">
       <h1 className="text-2xl font-bold mb-4">Signup</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
-        <input
-          name="username"
-          placeholder="Username"
-          value={form.username}
-          onChange={handleChange}
-          className="w-full p-2 border"
-        />
-        <input
-          name="email"
-          placeholder="Email"
-          type="email"
-          value={form.email}
-          onChange={handleChange}
-          className="w-full p-2 border"
-        />
-        <input
-          name="dob"
-          type="date"
-          value={form.dob}
-          onChange={handleChange}
-          className="w-full p-2 border"
-        />
-        <input
-          name="password"
-          type="password"
-          placeholder="Password"
-          value={form.password}
-          onChange={handleChange}
-          className="w-full p-2 border"
-        />
+        <input name="username" placeholder="Username" value={form.username} onChange={handleChange} className="w-full p-2 border" />
+        <input name="email" type="email" placeholder="Email" value={form.email} onChange={handleChange} className="w-full p-2 border" />
+        <input name="dob" type="date" value={form.dob} onChange={handleChange} className="w-full p-2 border" />
+        <input name="password" type="password" placeholder="Password" value={form.password} onChange={handleChange} className="w-full p-2 border" />
 
-        {/* ✅ Role Selector */}
-        <select
-          name="role"
-          value={form.role}
-          onChange={handleChange}
-          className="w-full p-2 border"
-        >
+        {/* Role Selector */}
+        <select name="role" value={form.role} onChange={handleChange} className="w-full p-2 border">
           <option value="user">User</option>
           <option value="admin">Admin</option>
         </select>
 
-        <button type="submit" className="bg-blue-600 text-white p-2 w-full">
-          Sign Up
-        </button>
+        {/* Conditionally show passkey field for Admin */}
+        {form.role === 'admin' && (
+          <input
+            name="passkey"
+            placeholder="Enter Admin Passkey"
+            value={form.passkey}
+            onChange={handleChange}
+            className="w-full p-2 border"
+          />
+        )}
+
+        <button type="submit" className="bg-blue-600 text-white p-2 w-full">Sign Up</button>
       </form>
 
       <p className="mt-4 text-sm">
