@@ -14,6 +14,8 @@ import complaintsRouter from './routes/complaintsRoutes.js';
 import portfolio from './routes/portfolioRoutes.js';
 import payment from './routes/paymentRoutes.js';
 import profileRouter from './routes/profileRoutes.js';
+import { addMember } from './controller/addMember.js';
+import { deleteMember } from './controller/deleteMember.js';
 
 const app = express();
 app.use(express.json());
@@ -134,121 +136,10 @@ app.post('/admin/query', isAuthenticated, isAdmin, (req, res) => {
 });
 
 // Admin endpoint to add a new member
-app.post('/admin/addmember', isAuthenticated, isAdmin, (req, res) => {
-  const { username, email, password, role } = req.body;
-  
-  // Validate input
-  if (!username || !email || !password) {
-    logger('Add member failed: Missing required fields', false);
-    return res.status(400).json({ error: 'Username, email, and password are required' });
-  }
-  
-  // Check for valid role
-  const validRole = role === 'admin' || role === 'user';
-  if (!validRole) {
-    logger(`Add member failed: Invalid role specified: ${role}`, false);
-    return res.status(400).json({ error: 'Role must be either "admin" or "user"' });
-  }
-  
-  // Check if email already exists
-  connection1.query(
-    'SELECT ID FROM members WHERE emailID = ?',
-    [email],
-    (err, results) => {
-      if (err) {
-        logger(`Database error checking email existence: ${err.message}`, false);
-        return res.status(500).json({ error: 'Database error', message: err.message });
-      }
-      
-      if (results.length > 0) {
-        logger(`Add member failed: Email ${email} already exists`, false);
-        return res.status(409).json({ error: 'Email already exists' });
-      }
-      
-      // Insert new user into members table
-      connection1.query(
-        'INSERT INTO members (UserName, emailID, passwords, role) VALUES (?, ?, ?, ?)',
-        [username, email, password, role],
-        (err, result) => {
-          if (err) {
-            logger(`Database error creating member: ${err.message}`, false);
-            return res.status(500).json({ error: 'Failed to create member', message: err.message });
-          }
-          
-          const memberId = result.insertId;
-          logger(`New member created with ID ${memberId} and role ${role}`, true);
-          
-          // Return success response
-          res.status(201).json({
-            message: 'Member created successfully',
-            memberId: memberId,
-            username: username,
-            role: role
-          });
-        }
-      );
-    }
-  );
-});
+app.post('/admin/addmember', isAuthenticated, isAdmin, addMember );
 
 // Admin endpoint to delete a member
-app.patch('/admin/deletemember', isAuthenticated, isAdmin, (req, res) => {
-  const { memberID } = req.body;
-  
-  if (!memberID) {
-    logger('Delete member failed: Missing member ID', false);
-    return res.status(400).json({ error: 'Member ID is required' });
-  }
-  
-  // First check if member exists
-  connection1.query(
-    'SELECT ID, UserName, role FROM members WHERE ID = ?',
-    [memberID],
-    (err, results) => {
-      if (err) {
-        logger(`Database error checking member existence: ${err.message}`, false);
-        return res.status(500).json({ error: 'Database error', message: err.message });
-      }
-      
-      if (results.length === 0) {
-        logger(`Delete member failed: Member with ID ${memberID} not found`, false);
-        return res.status(404).json({ error: 'Member not found' });
-      }
-      
-      const memberToDelete = results[0];
-      
-      // Prevent deletion of own account
-      if (req.user && req.user.id === memberID) {
-        logger(`Delete member failed: Attempted to delete own account (ID: ${memberID})`, false);
-        return res.status(403).json({ error: 'You cannot delete your own account' });
-      }
-      
-      // Use soft deletion by setting 'isDeleted' flag or similar
-      // This is safer than actually deleting records that might have relationships
-      connection1.query(
-        'UPDATE members SET isActive = 0 WHERE ID = ?',
-        [memberID],
-        (err, result) => {
-          if (err) {
-            logger(`Database error deleting member: ${err.message}`, false);
-            return res.status(500).json({ error: 'Failed to delete member', message: err.message });
-          }
-          
-          if (result.affectedRows === 0) {
-            logger(`Delete member failed: No rows affected for ID ${memberID}`, false);
-            return res.status(500).json({ error: 'Failed to delete member' });
-          }
-          
-          logger(`Member ${memberID} (${memberToDelete.UserName}) successfully deactivated`, true);
-          res.status(200).json({
-            message: 'Member successfully deleted',
-            memberId: memberID
-          });
-        }
-      );
-    }
-  );
-});
+app.patch('/admin/deletemember', isAuthenticated, isAdmin, deleteMember);
 
 app.use('/', orderRouter);
 app.use('/', complaintsRouter);
