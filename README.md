@@ -1,4 +1,4 @@
-# FreahWash: A Laundry Management System
+# FreshWash: A Laundry Management System
 
 ## Group 10 Details:
 
