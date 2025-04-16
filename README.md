@@ -1,4 +1,6 @@
-Group 10 Details:
+# FreahWash: A Laundry Management System
+
+## Group 10 Details:
 
 Member 1 Name: Nishit Prajapati ID: 24120036 EMAIL ID: nishit.prajapati@iitgn.ac.in
 
