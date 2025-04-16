@@ -27,11 +27,6 @@ CREATE TABLE images (
   ImagePath varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE images (
-  MemberID int NOT NULL,
-  ImagePath varchar(500) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
-
 }
 
 Tables under cs432g10 database using connection21 {
@@ -170,4 +165,10 @@ CREATE TABLE payments (
   Date date NOT NULL,
   PRIMARY KEY (TransactionID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `_logs` (
+  `_timestamp` varchar(30) NOT NULL,
+  `_description` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
 }
