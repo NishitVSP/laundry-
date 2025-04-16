@@ -338,3 +338,1644 @@
 2025-04-15T21:34:57.146Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
 2025-04-15T21:34:57.146Z - Fetching user portfolio - Customer ID: 2241
 2025-04-15T21:34:57.146Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - Server started - Connected to both databases
+2025-04-15T21:59:13.435Z - Server running on http://localhost:4000
+2025-04-15T21:59:13.435Z - Login attempt - Username: Hiii_user
+2025-04-15T21:59:13.435Z - Login successful - User: Hiii_user, Role: user, MemberId: 2241
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 10
+2025-04-15T21:59:13.435Z - New order request - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Order placed successfully - Order ID: 38
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 11
+2025-04-15T21:59:13.435Z - New order request - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Order placed successfully - Order ID: 39
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Payments retrieved successfully - Count: 1
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T21:59:13.435Z - Complaints retrieved successfully - Count: 5
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T21:59:46.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Login attempt - Username: Hiii_user
+2025-04-15T21:59:13.435Z - Login successful - User: Hiii_user, Role: user, MemberId: 2241
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:16:21.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:16:21.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:16:21.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:16:21.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:16:21.000Z
+2025-04-15T21:59:13.435Z - Authentication check requested
+2025-04-15T21:59:13.435Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T21:59:13.435Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:16:21.000Z
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T21:59:13.435Z - Payment attempt - Customer ID: 2241, Order ID: 39, Payment Mode: UPI
+2025-04-15T21:59:13.435Z - Customer found - Name: Hiii_user, Payment ID: 224139
+2025-04-15T21:59:13.435Z - Order verified - Order ID: 39, Amount: 75.00
+2025-04-15T21:59:13.435Z - Transaction recorded - Payment ID: 224139
+2025-04-15T21:59:13.435Z - Payment successful - Payment ID: 224139, Amount: 75.00, Order ID: 39
+2025-04-15T21:59:13.435Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T21:59:13.435Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:36:39.971Z - Server started - Connected to both databases
+2025-04-15T22:36:39.971Z - Server running on http://localhost:4000
+2025-04-15T22:37:02.130Z - Server started - Connected to both databases
+2025-04-15T22:37:02.130Z - Server running on http://localhost:4000
+2025-04-15T22:37:25.385Z - Server started - Connected to both databases
+2025-04-15T22:37:25.385Z - Server running on http://localhost:4000
+2025-04-15T22:39:43.167Z - Server started - Connected to both databases
+2025-04-15T22:39:43.167Z - Server running on http://localhost:4000
+2025-04-15T22:40:29.246Z - Server started - Connected to both databases
+2025-04-15T22:40:29.246Z - Server running on http://localhost:4000
+2025-04-15T22:41:25.223Z - Server started - Connected to both databases
+2025-04-15T22:41:25.223Z - Server running on http://localhost:4000
+2025-04-15T22:43:23.755Z - Server started - Connected to both databases
+2025-04-15T22:43:23.755Z - Server running on http://localhost:4000
+2025-04-15T22:43:23.755Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:43:23.755Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:44:15.880Z - Server started - Connected to both databases
+2025-04-15T22:44:15.880Z - Server running on http://localhost:4000
+2025-04-15T22:44:46.975Z - Server started - Connected to both databases
+2025-04-15T22:44:46.975Z - Server running on http://localhost:4000
+2025-04-15T22:45:18.055Z - Server started - Connected to both databases
+2025-04-15T22:45:18.055Z - Server running on http://localhost:4000
+2025-04-15T22:45:31.193Z - Server started - Connected to both databases
+2025-04-15T22:45:31.193Z - Server running on http://localhost:4000
+2025-04-15T22:45:52.028Z - Server started - Connected to both databases
+2025-04-15T22:45:52.028Z - Server running on http://localhost:4000
+2025-04-15T22:54:12.542Z - Server started - Connected to both databases
+2025-04-15T22:54:12.542Z - Server running on http://localhost:4000
+2025-04-15T22:54:26.641Z - Server started - Connected to both databases
+2025-04-15T22:54:26.641Z - Server running on http://localhost:4000
+2025-04-15T22:54:53.708Z - Server started - Connected to both databases
+2025-04-15T22:54:53.708Z - Server running on http://localhost:4000
+2025-04-15T22:55:06.005Z - Server running on http://localhost:4000
+2025-04-15T22:55:06.005Z - Server started - Connected to both databases
+2025-04-15T22:55:06.005Z - Login attempt - Username: Hiii_user
+2025-04-15T22:55:06.005Z - Login successful - User: Hiii_user, Role: user, MemberId: 2241
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Complaint filing attempt - Order ID: 39, Type: Missing
+2025-04-15T22:55:06.005Z - Complaint created - ID: 19, Order ID: 39
+2025-04-15T22:55:06.005Z - Complaint file link created - Complaint ID: 19, Customer ID: 2241
+2025-04-15T22:55:06.005Z - Staff selected for complaint - Staff ID: 1309, Complaint ID: 19
+2025-04-15T22:55:06.005Z - Complaint filed and assigned successfully - Complaint ID: 19, Staff ID: 1309
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T22:55:06.005Z - Complaints retrieved successfully - Count: 6
+2025-04-15T22:55:06.005Z - Fetching complaints - User role: user, User ID: 2241
+2025-04-15T22:55:06.005Z - Complaints retrieved successfully - Count: 6
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T22:55:06.005Z - Payments retrieved successfully - Count: 2
+2025-04-15T22:55:06.005Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T22:55:06.005Z - Payments retrieved successfully - Count: 2
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Authentication check requested
+2025-04-15T22:55:06.005Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T22:55:06.005Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T22:55:59.000Z
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T22:55:06.005Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T22:55:06.005Z - Login attempt - Username: Hiii_user
+2025-04-15T22:55:06.005Z - Login successful - User: Hiii_user, Role: user, MemberId: 2241
+2025-04-15T22:55:06.005Z - Fetching payments - User role: user, User ID: 2241
+2025-04-15T22:55:06.005Z - Payments retrieved successfully - Count: 2
+2025-04-15T23:01:35.474Z - Server started - Connected to both databases
+2025-04-15T23:01:35.474Z - Server running on http://localhost:4000
+2025-04-15T23:01:37.369Z - Server started - Connected to both databases
+2025-04-15T23:01:37.369Z - Server running on http://localhost:4000
+2025-04-15T23:01:44.895Z - Server started - Connected to both databases
+2025-04-15T23:01:44.895Z - Server running on http://localhost:4000
+2025-04-15T23:01:46.800Z - Server started - Connected to both databases
+2025-04-15T23:01:46.800Z - Server running on http://localhost:4000
+2025-04-15T23:01:56.577Z - Server started - Connected to both databases
+2025-04-15T23:01:56.577Z - Server running on http://localhost:4000
+2025-04-15T23:01:56.577Z - Authentication check requested
+2025-04-15T23:01:56.577Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:01:56.577Z - Authentication failed - Invalid session token for user: Hiii_user
+2025-04-15T23:02:27.112Z - Server started - Connected to both databases
+2025-04-15T23:02:27.112Z - Server running on http://localhost:4000
+2025-04-15T23:02:27.112Z - Login attempt - Username: Hiii_user
+2025-04-15T23:02:27.112Z - Login successful - User: Hiii_user, Role: user, MemberId: 2241
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Image upload failed - Missing imagePath
+2025-04-15T23:02:27.112Z - Image upload attempt - MemberID: 2241, Role: user, ImagePath: undefined
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Image upload attempt - MemberID: 2241, Role: user, ImagePath: https://drive.google.com/file/d/1rpirdQlishEutmP5iJebSKvzzA321eZS/view?usp=sharing
+2025-04-15T23:02:27.112Z - Image inserted successfully into images table - MemberID: 2241
+2025-04-15T23:02:27.112Z - Successfully updated customers image - MemberID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Authentication check requested
+2025-04-15T23:02:27.112Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:02:27.112Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:02:27.112Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:02:27.112Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:28:00.698Z - Server started - Connected to both databases
+2025-04-15T23:28:00.698Z - Server running on http://localhost:4000
+2025-04-15T23:28:02.643Z - Server started - Connected to both databases
+2025-04-15T23:28:02.643Z - Server running on http://localhost:4000
+2025-04-15T23:28:11.115Z - Server started - Connected to both databases
+2025-04-15T23:28:11.115Z - Server running on http://localhost:4000
+2025-04-15T23:28:20.000Z - Server started - Connected to both databases
+2025-04-15T23:28:20.000Z - Server running on http://localhost:4000
+2025-04-15T23:28:47.209Z - Server started - Connected to both databases
+2025-04-15T23:28:47.209Z - Server running on http://localhost:4000
+2025-04-15T23:29:00.277Z - Server started - Connected to both databases
+2025-04-15T23:29:00.277Z - Server running on http://localhost:4000
+2025-04-15T23:29:00.277Z - Address update attempt - MemberID: 2241, Role: user
+2025-04-15T23:29:00.277Z - Address update failed - Only customers can update address. Role: user
+2025-04-15T23:29:00.277Z - Address update failed - Only customers can update address. Role: user
+2025-04-15T23:29:00.277Z - Address update attempt - MemberID: 2241, Role: user
+2025-04-15T23:30:05.139Z - Server started - Connected to both databases
+2025-04-15T23:30:05.139Z - Server running on http://localhost:4000
+2025-04-15T23:30:28.060Z - Server started - Connected to both databases
+2025-04-15T23:30:28.060Z - Server running on http://localhost:4000
+2025-04-15T23:30:38.754Z - Server started - Connected to both databases
+2025-04-15T23:30:38.754Z - Server running on http://localhost:4000
+2025-04-15T23:30:38.754Z - Address update attempt - MemberID: 2241, Role: user
+2025-04-15T23:30:38.754Z - Address updated successfully - MemberID: 2241
+2025-04-15T23:34:37.030Z - Server started - Connected to both databases
+2025-04-15T23:34:37.030Z - Server running on http://localhost:4000
+2025-04-15T23:34:39.313Z - Server started - Connected to both databases
+2025-04-15T23:34:39.313Z - Server running on http://localhost:4000
+2025-04-15T23:34:48.734Z - Server started - Connected to both databases
+2025-04-15T23:34:48.734Z - Server running on http://localhost:4000
+2025-04-15T23:34:59.293Z - Server started - Connected to both databases
+2025-04-15T23:34:59.293Z - Server running on http://localhost:4000
+2025-04-15T23:34:59.293Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:36:18.644Z - Server started - Connected to both databases
+2025-04-15T23:36:18.644Z - Server running on http://localhost:4000
+2025-04-15T23:37:32.529Z - Server started - Connected to both databases
+2025-04-15T23:37:32.529Z - Server running on http://localhost:4000
+2025-04-15T23:37:36.359Z - Server started - Connected to both databases
+2025-04-15T23:37:36.359Z - Server running on http://localhost:4000
+2025-04-15T23:38:07.085Z - Server started - Connected to both databases
+2025-04-15T23:38:07.085Z - Server running on http://localhost:4000
+2025-04-15T23:38:17.199Z - Server started - Connected to both databases
+2025-04-15T23:38:17.199Z - Server running on http://localhost:4000
+2025-04-15T23:38:34.086Z - Server started - Connected to both databases
+2025-04-15T23:38:34.086Z - Server running on http://localhost:4000
+2025-04-15T23:38:34.086Z - Phone update attempt - MemberID: 2241, Role: user
+2025-04-15T23:38:34.086Z - Phone updated successfully - MemberID: 2241
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:38:34.086Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:38:34.086Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:38:34.086Z - Payment attempt - Customer ID: 2241, Order ID: 38, Payment Mode: UPI
+2025-04-15T23:38:34.086Z - Customer found - Name: Hiii_user, Payment ID: 224138
+2025-04-15T23:38:34.086Z - Order verified - Order ID: 38, Amount: 130.00
+2025-04-15T23:38:34.086Z - Transaction recorded - Payment ID: 224138
+2025-04-15T23:38:34.086Z - Payment successful - Payment ID: 224138, Amount: 130.00, Order ID: 38
+2025-04-15T23:38:34.086Z - Complaint filing attempt - Order ID: 38, Type: Missing
+2025-04-15T23:38:34.086Z - Complaint created - ID: 20, Order ID: 38
+2025-04-15T23:38:34.086Z - Complaint file link created - Complaint ID: 20, Customer ID: 2241
+2025-04-15T23:38:34.086Z - Staff selected for complaint - Staff ID: 1164, Complaint ID: 20
+2025-04-15T23:38:34.086Z - Complaint filed and assigned successfully - Complaint ID: 20, Staff ID: 1164
+2025-04-15T23:38:34.086Z - Payment attempt - Customer ID: 2241, Order ID: 37, Payment Mode: Credit Card
+2025-04-15T23:38:34.086Z - Customer found - Name: Hiii_user, Payment ID: 224137
+2025-04-15T23:38:34.086Z - Order verified - Order ID: 37, Amount: 330.00
+2025-04-15T23:38:34.086Z - Transaction recorded - Payment ID: 224137
+2025-04-15T23:38:34.086Z - Payment successful - Payment ID: 224137, Amount: 330.00, Order ID: 37
+2025-04-15T23:38:34.086Z - Complaint filing attempt - Order ID: 37, Type: Damaged
+2025-04-15T23:38:34.086Z - Complaint created - ID: 21, Order ID: 37
+2025-04-15T23:38:34.086Z - Complaint file link created - Complaint ID: 21, Customer ID: 2241
+2025-04-15T23:38:34.086Z - Staff selected for complaint - Staff ID: 1161, Complaint ID: 21
+2025-04-15T23:38:34.086Z - Complaint filed and assigned successfully - Complaint ID: 21, Staff ID: 1161
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:02:49.000Z
+2025-04-15T23:38:34.086Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:38:34.086Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:38:34.086Z - Login attempt - Username: Hiii_user
+2025-04-15T23:38:34.086Z - Login successful - User: Hiii_user, Role: user, MemberId: 2241
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:46:16.000Z
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_user, MemberId: 2241, Role: user
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_user, Role: user, Expiry: 2025-04-16T23:46:16.000Z
+2025-04-15T23:38:34.086Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:38:34.086Z - Fetching user portfolio - Customer ID: 2241
+2025-04-15T23:38:34.086Z - Profile fetched successfully - User ID: 2241
+2025-04-15T23:38:34.086Z - Portfolio retrieved successfully - Customer ID: 2241, Items: 12
+2025-04-15T23:38:34.086Z - Login attempt - Username: Hiii_admin3
+2025-04-15T23:38:34.086Z - Login successful - User: Hiii_admin3, Role: admin, MemberId: 24210151
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Fetching payments - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Payments retrieved successfully - Count: 5
+2025-04-15T23:38:34.086Z - Fetching payments - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - Payments retrieved successfully - Count: 5
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Authentication check requested
+2025-04-15T23:38:34.086Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:38:34.086Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Fetching all portfolios - User role: admin
+2025-04-15T23:38:34.086Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:38:34.086Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:38:34.086Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:38:34.086Z - Order status update request - Order ID: 23, New Status: Pending
+2025-04-15T23:38:34.086Z - Order status updated successfully - Order ID: 23, New Status: Pending
+2025-04-15T23:38:34.086Z - Order status update request - Order ID: 23, New Status: Picked up
+2025-04-15T23:38:34.086Z - Order status updated successfully - Order ID: 23, New Status: Picked up
+2025-04-15T23:38:34.086Z - Order status update request - Order ID: 23, New Status: Delivered
+2025-04-15T23:38:34.086Z - Order status updated successfully - Order ID: 23, New Status: Delivered
+2025-04-15T23:55:38.020Z - Server started - Connected to both databases
+2025-04-15T23:55:38.020Z - Server running on http://localhost:4000
+2025-04-15T23:56:51.111Z - Server started - Connected to both databases
+2025-04-15T23:56:51.111Z - Server running on http://localhost:4000
+2025-04-15T23:57:16.288Z - Server started - Connected to both databases
+2025-04-15T23:57:16.288Z - Server running on http://localhost:4000
+2025-04-15T23:57:16.288Z - Fetching user portfolio - Customer ID: 24210151
+2025-04-15T23:57:16.288Z - Portfolio retrieved successfully - Customer ID: 24210151, Items: 0
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Fetching user portfolio - Customer ID: 24210151
+2025-04-15T23:57:16.288Z - Portfolio retrieved successfully - Customer ID: 24210151, Items: 0
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching user portfolio - Customer ID: 24210151
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Portfolio retrieved successfully - Customer ID: 24210151, Items: 0
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Fetching user portfolio - Customer ID: 24210151
+2025-04-15T23:57:16.288Z - Portfolio retrieved successfully - Customer ID: 24210151, Items: 0
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching user portfolio - Customer ID: 24210151
+2025-04-15T23:57:16.288Z - Portfolio retrieved successfully - Customer ID: 24210151, Items: 0
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Fetching user portfolio - Customer ID: 24210151
+2025-04-15T23:57:16.288Z - Portfolio retrieved successfully - Customer ID: 24210151, Items: 0
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 19
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Complaint resolve date update attempt - User role: admin
+2025-04-15T23:57:16.288Z - Failed to update resolve date - Complaint ID: 11, Error: Unknown column 'Complaint_Date' in 'field list'
+2025-04-15T23:57:16.288Z - Complaint status update attempt - ID: 11, New Status: Resolved
+2025-04-15T23:57:16.288Z - Complaint status updated successfully - ID: 11, New Status: Resolved
+2025-04-15T23:57:16.288Z - Complaint resolve date update attempt - User role: admin
+2025-04-15T23:57:16.288Z - Failed to update resolve date - Complaint ID: 12, Error: Unknown column 'Complaint_Date' in 'field list'
+2025-04-15T23:57:16.288Z - Complaint status update attempt - ID: 12, New Status: Open
+2025-04-15T23:57:16.288Z - Complaint status updated successfully - ID: 12, New Status: Open
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 20
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 20
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 20
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 20
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching payments - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Payments retrieved successfully - Count: 5
+2025-04-15T23:57:16.288Z - Fetching payments - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Payments retrieved successfully - Count: 5
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Authentication check requested
+2025-04-15T23:57:16.288Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 20
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Fetching all portfolios - User role: admin
+2025-04-15T23:57:16.288Z - All portfolios retrieved successfully - Count: 20
+2025-04-15T23:57:16.288Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-15T23:57:16.288Z - Complaints retrieved successfully - Count: 10
+2025-04-15T23:57:16.288Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - No customer found with ID: 24210151
+2025-04-15T23:57:16.288Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-15T23:57:16.288Z - No customer found with ID: 24210151
+2025-04-16T00:09:59.461Z - Server started - Connected to both databases
+2025-04-16T00:09:59.461Z - Server running on http://localhost:4000
+2025-04-16T00:10:26.425Z - Server started - Connected to both databases
+2025-04-16T00:10:26.425Z - Server running on http://localhost:4000
+2025-04-16T00:10:50.879Z - Server started - Connected to both databases
+2025-04-16T00:10:50.879Z - Server running on http://localhost:4000
+2025-04-16T00:11:16.437Z - Server started - Connected to both databases
+2025-04-16T00:11:16.437Z - Server running on http://localhost:4000
+2025-04-16T00:11:16.437Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:11:16.437Z - Failed to update staff address - MemberID: 24210151, Error: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:11:16.437Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:11:16.437Z - Failed to update staff address - MemberID: 24210151, Error: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:11:16.437Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:11:16.437Z - Failed to update staff address - MemberID: 24210151, Error: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:11:16.437Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:11:16.437Z - Failed to update staff address - MemberID: 24210151, Error: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:13:32.920Z - Server started - Connected to both databases
+2025-04-16T00:13:32.920Z - Server running on http://localhost:4000
+2025-04-16T00:14:11.391Z - Server started - Connected to both databases
+2025-04-16T00:14:11.391Z - Server running on http://localhost:4000
+2025-04-16T00:14:21.202Z - Server started - Connected to both databases
+2025-04-16T00:14:21.202Z - Server running on http://localhost:4000
+2025-04-16T00:14:21.202Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:14:21.202Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:14:21.202Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:14:21.202Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:14:21.202Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:14:21.202Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:14:21.202Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:14:21.202Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:14:21.202Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:14:21.202Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:14:21.202Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:14:21.202Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:20:54.001Z - Server started - Connected to both databases
+2025-04-16T00:20:54.001Z - Server running on http://localhost:4000
+2025-04-16T00:20:54.001Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:20:54.001Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:20:54.001Z - Address update attempt - MemberID: 24210151, Role: admin
+2025-04-16T00:20:54.001Z - Failed to create customer record for admin - MemberID: 24210151, Error: Field 'Age' doesn't have a default value
+2025-04-16T00:20:54.001Z - Image upload attempt - MemberID: 24210151, Role: admin, ImagePath: https://drive.google.com/file/d/1rpirdQlishEutmP5iJebSKvzzA321eZS/view?usp=sharing
+2025-04-16T00:20:54.001Z - Image inserted successfully into images table - MemberID: 24210151
+2025-04-16T00:20:54.001Z - Successfully updated staff image - MemberID: 24210151
+2025-04-16T00:25:58.717Z - Server started - Connected to both databases
+2025-04-16T00:25:58.717Z - Server running on http://localhost:4000
+2025-04-16T00:31:17.449Z - Server started - Connected to both databases
+2025-04-16T00:31:17.449Z - Server running on http://localhost:4000
+2025-04-16T00:34:00.955Z - Server started - Connected to both databases
+2025-04-16T00:34:00.955Z - Server running on http://localhost:4000
+2025-04-16T00:34:00.955Z - Address update failed: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:34:00.955Z - Address update failed: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:35:43.323Z - Server started - Connected to both databases
+2025-04-16T00:35:43.323Z - Server running on http://localhost:4000
+2025-04-16T00:36:06.489Z - Server started - Connected to both databases
+2025-04-16T00:36:06.489Z - Server running on http://localhost:4000
+2025-04-16T00:36:24.037Z - Server started - Connected to both databases
+2025-04-16T00:36:24.037Z - Server running on http://localhost:4000
+2025-04-16T00:36:24.037Z - Updating address for admin with ID 24210151: C-604, Pavitra Enclave, Ahmedabad, Gujarat, 382470
+2025-04-16T00:36:24.037Z - Address update failed: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:36:24.037Z - Updating address for admin with ID 24210151: C-604, Pavitra Enclave, Ahmedabad, Gujarat, 382470
+2025-04-16T00:36:24.037Z - Address update failed: Unknown column 'staff_address' in 'field list'
+2025-04-16T00:38:14.022Z - Server started - Connected to both databases
+2025-04-16T00:38:14.022Z - Server running on http://localhost:4000
+2025-04-16T00:39:42.910Z - Server started - Connected to both databases
+2025-04-16T00:39:42.910Z - Server running on http://localhost:4000
+2025-04-16T00:39:42.910Z - Updating phone for admin with ID 24210151: 9687653515
+2025-04-16T00:43:58.474Z - Server started - Connected to both databases
+2025-04-16T00:43:58.474Z - Server running on http://localhost:4000
+2025-04-16T00:45:25.805Z - Server started - Connected to both databases
+2025-04-16T00:45:25.805Z - Server running on http://localhost:4000
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - Complaint status update attempt - ID: 21, New Status: Open
+2025-04-16T00:45:25.805Z - Complaint status updated successfully - ID: 21, New Status: Open
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin3, MemberId: 24210151, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin3, Role: admin, Expiry: 2025-04-16T23:48:09.000Z
+2025-04-16T00:45:25.805Z - Fetching all portfolios - User role: admin
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-16T00:45:25.805Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - Fetching all portfolios - User role: admin
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210151
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:45:25.805Z - Login attempt - Username: Hiii_admin2
+2025-04-16T00:45:25.805Z - Login successful - User: Hiii_admin2, Role: admin, MemberId: 24210120
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T00:49:10.000Z
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T00:49:10.000Z
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:45:25.805Z - Fetching all portfolios - User role: admin
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:45:25.805Z - Fetching all portfolios - User role: admin
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - Complaint status update attempt - ID: 21, New Status: Resolved
+2025-04-16T00:45:25.805Z - Complaint status updated successfully - ID: 21, New Status: Resolved
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T00:49:10.000Z
+2025-04-16T00:45:25.805Z - Authentication check requested
+2025-04-16T00:45:25.805Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T00:45:25.805Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T00:49:10.000Z
+2025-04-16T00:45:25.805Z - Fetching all portfolios - User role: admin
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:45:25.805Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:45:25.805Z - Fetching all portfolios - User role: admin
+2025-04-16T00:45:25.805Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:45:25.805Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:45:25.805Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:53:02.037Z - Server started - Connected to both databases
+2025-04-16T00:53:02.037Z - Server running on http://localhost:4000
+2025-04-16T00:53:21.034Z - Server started - Connected to both databases
+2025-04-16T00:53:21.034Z - Server running on http://localhost:4000
+2025-04-16T00:53:35.990Z - Server started - Connected to both databases
+2025-04-16T00:53:35.990Z - Server running on http://localhost:4000
+2025-04-16T00:54:51.917Z - Server started - Connected to both databases
+2025-04-16T00:54:51.917Z - Server running on http://localhost:4000
+2025-04-16T00:54:51.917Z - Admin executing SQL query: SELECT * FROM customers LIMIT 10
+2025-04-16T00:54:51.917Z - SQL query executed successfully
+2025-04-16T00:56:07.216Z - Server running on http://localhost:4000
+2025-04-16T00:56:07.216Z - Server started - Connected to both databases
+2025-04-16T00:57:31.651Z - Server started - Connected to both databases
+2025-04-16T00:57:31.651Z - Server running on http://localhost:4000
+2025-04-16T00:57:31.651Z - Authentication check requested
+2025-04-16T00:57:31.651Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T00:57:31.651Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T00:49:10.000Z
+2025-04-16T00:57:31.651Z - Authentication check requested
+2025-04-16T00:57:31.651Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T00:57:31.651Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T00:49:10.000Z
+2025-04-16T00:57:31.651Z - Fetching all portfolios - User role: admin
+2025-04-16T00:57:31.651Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:57:31.651Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:57:31.651Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:57:31.651Z - Fetching all portfolios - User role: admin
+2025-04-16T00:57:31.651Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T00:57:31.651Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T00:57:31.651Z - Complaints retrieved successfully - Count: 10
+2025-04-16T00:59:45.394Z - Server started - Connected to both databases
+2025-04-16T00:59:45.394Z - Server running on http://localhost:4000
+2025-04-16T01:00:01.854Z - Server started - Connected to both databases
+2025-04-16T01:00:01.854Z - Server running on http://localhost:4000
+2025-04-16T01:02:00.063Z - Server started - Connected to both databases
+2025-04-16T01:02:00.063Z - Server running on http://localhost:4000
+2025-04-16T01:02:52.990Z - Server started - Connected to both databases
+2025-04-16T01:02:52.990Z - Server running on http://localhost:4000
+2025-04-16T01:02:52.990Z - Login attempt - Username: Hiii_admin2
+2025-04-16T01:02:52.990Z - Login successful - User: Hiii_admin2, Role: admin, MemberId: 24210120
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID FROM members ORDER BY ID DESC LIMIT 20
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID FROM members ORDER BY ID DESC LIMIT 20
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID FROM members ORDER BY ID DESC LIMIT 20
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID FROM members ORDER BY ID DESC LIMIT 20
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, role FROM members WHERE isActive = 1 OR isActive IS NULL ORDER BY ID DESC LIMIT 100
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, role FROM members WHERE isActive = 1 OR isActive IS NULL ORDER BY ID DESC LIMIT 100
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, role FROM members LIMIT 50
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, role FROM members LIMIT 50
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, IFNULL(role, 'user') as role FROM members WHERE isActive IS NULL OR isActive = 1 ORDER BY ID DESC LIMIT 50
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, IFNULL(role, 'user') as role FROM members WHERE isActive IS NULL OR isActive = 1 ORDER BY ID DESC LIMIT 50
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Hiii_admin2, MemberId: 24210120, Role: admin
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Hiii_admin2, Role: admin, Expiry: 2025-04-17T01:03:04.000Z
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Admin executing SQL query on cs432g10: SELECT ID, UserName, emailID, role FROM members ORDER BY ID LIMIT 100
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - SQL query error: Table 'cs432g10.members' doesn't exist
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Fetching all portfolios - User role: admin
+2025-04-16T01:02:52.990Z - Fetching complaints - User role: admin, User ID: 24210120
+2025-04-16T01:02:52.990Z - All portfolios retrieved successfully - Count: 20
+2025-04-16T01:02:52.990Z - Complaints retrieved successfully - Count: 10
+2025-04-16T01:02:52.990Z - Signup attempt - Username: Smita, Email: smita@gmail.com, Role: user
+2025-04-16T01:02:52.990Z - Member created successfully - MemberID: 24210264
+2025-04-16T01:02:52.990Z - Login credentials created successfully - MemberID: 24210264
+2025-04-16T01:02:52.990Z - Member added to group successfully - MemberID: 24210264, GroupID: 10
+2025-04-16T01:02:52.990Z - Successfully created customers record - MemberID: 24210264
+2025-04-16T01:02:52.990Z - Failed to insert into images - MemberID: 24210264, Error: Table 'cs432g10.images' doesn't exist
+2025-04-16T01:02:52.990Z - Signup completed successfully - MemberID: 24210264, Username: Smita, Role: user
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:02:52.990Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:02:52.990Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 0
+2025-04-16T01:02:52.990Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:02:52.990Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 0
+2025-04-16T01:02:52.990Z - New order request - Customer ID: 24210264
+2025-04-16T01:02:52.990Z - Order placed successfully - Order ID: 40
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:02:52.990Z - Authentication check requested
+2025-04-16T01:02:52.990Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:02:52.990Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:02:52.990Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:02:52.990Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 1
+2025-04-16T01:02:52.990Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:02:52.990Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 1
+2025-04-16T01:02:52.990Z - Payment attempt - Customer ID: 24210264, Order ID: 40, Payment Mode: Credit Card
+2025-04-16T01:02:52.990Z - Customer found - Name: Smita, Payment ID: 2421026440
+2025-04-16T01:02:52.990Z - Order verified - Order ID: 40, Amount: 110.00
+2025-04-16T01:02:52.990Z - Failed to record transaction - Payment ID: 2421026440, Error: Out of range value for column 'TransactionID' at row 1
+2025-04-16T01:02:52.990Z - Payment attempt - Customer ID: 24210264, Order ID: 40, Payment Mode: Cash
+2025-04-16T01:02:52.990Z - Customer found - Name: Smita, Payment ID: 2421026440
+2025-04-16T01:02:52.990Z - Order verified - Order ID: 40, Amount: 110.00
+2025-04-16T01:02:52.990Z - Failed to record transaction - Payment ID: 2421026440, Error: Out of range value for column 'TransactionID' at row 1
+2025-04-16T01:27:11.313Z - Server started - Connected to both databases
+2025-04-16T01:27:11.313Z - Server running on http://localhost:4000
+2025-04-16T01:27:24.672Z - Server started - Connected to both databases
+2025-04-16T01:27:24.672Z - Server running on http://localhost:4000
+2025-04-16T01:27:24.672Z - Payment attempt - Customer ID: 24210264, Order ID: 40, Payment Mode: Cash
+2025-04-16T01:27:24.672Z - Customer found - Name: Smita, Payment ID: 1040
+2025-04-16T01:27:24.672Z - Order verified - Order ID: 40, Amount: 110.00
+2025-04-16T01:27:24.672Z - Transaction recorded - Payment ID: 1040
+2025-04-16T01:27:24.672Z - Payment successful - Payment ID: 1040, Amount: 110.00, Order ID: 40
+2025-04-16T01:27:24.672Z - Complaint filing attempt - Order ID: 40, Type: Damaged
+2025-04-16T01:27:24.672Z - Complaint created - ID: 22, Order ID: 40
+2025-04-16T01:27:24.672Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 22
+2025-04-16T01:27:24.672Z - Staff assigned to complaint - Staff ID: 1158, Complaint ID: 22
+2025-04-16T01:27:24.672Z - Resolution assignment failed - Complaint ID: 22, Staff ID: 1158, Error: Unknown column 'Assignment_Date' in 'field list'
+2025-04-16T01:30:51.248Z - Server started - Connected to both databases
+2025-04-16T01:30:51.248Z - Server running on http://localhost:4000
+2025-04-16T01:30:59.670Z - Server started - Connected to both databases
+2025-04-16T01:30:59.670Z - Server running on http://localhost:4000
+2025-04-16T01:30:59.670Z - Complaint filing attempt - Order ID: 40, Type: Damaged
+2025-04-16T01:30:59.670Z - Complaint created - ID: 23, Order ID: 40
+2025-04-16T01:30:59.670Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 23
+2025-04-16T01:30:59.670Z - Staff assigned to complaint - Staff ID: 1158, Complaint ID: 23
+2025-04-16T01:30:59.670Z - Resolution assignment failed - Complaint ID: 23, Staff ID: 1158, Error: Unknown column 'Complaint_Date' in 'field list'
+2025-04-16T01:32:01.316Z - Server started - Connected to both databases
+2025-04-16T01:32:01.316Z - Server running on http://localhost:4000
+2025-04-16T01:34:04.228Z - Server started - Connected to both databases
+2025-04-16T01:34:04.228Z - Server running on http://localhost:4000
+2025-04-16T01:34:34.551Z - Server started - Connected to both databases
+2025-04-16T01:34:34.551Z - Server running on http://localhost:4000
+2025-04-16T01:34:34.551Z - Complaint filing attempt - Order ID: 40, Type: Damaged
+2025-04-16T01:34:34.551Z - Complaint created - ID: 24, Order ID: 40
+2025-04-16T01:34:34.551Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 24
+2025-04-16T01:34:34.551Z - Staff assigned to complaint - Staff ID: 24210151, Complaint ID: 24
+2025-04-16T01:34:34.551Z - Resolution assigned - Complaint ID: 24, Staff ID: 24210151
+2025-04-16T01:34:34.551Z - Complaint filed and assigned successfully - Complaint ID: 24, Staff ID: 24210151
+2025-04-16T01:34:34.551Z - New order request - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Order placed successfully - Order ID: 41
+2025-04-16T01:34:34.551Z - Authentication check requested
+2025-04-16T01:34:34.551Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:34:34.551Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:34:34.551Z - Authentication check requested
+2025-04-16T01:34:34.551Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:34:34.551Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:34:34.551Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:34:34.551Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:34:34.551Z - Payment attempt - Customer ID: 24210264, Order ID: 41, Payment Mode: Credit Card
+2025-04-16T01:34:34.551Z - Customer found - Name: Smita, Payment ID: 1041
+2025-04-16T01:34:34.551Z - Order verified - Order ID: 41, Amount: 280.00
+2025-04-16T01:34:34.551Z - Transaction recorded - Payment ID: 1041
+2025-04-16T01:34:34.551Z - Payment successful - Payment ID: 1041, Amount: 280.00, Order ID: 41
+2025-04-16T01:34:34.551Z - Complaint filing attempt - Order ID: 41, Type: Missing
+2025-04-16T01:34:34.551Z - Complaint created - ID: 25, Order ID: 41
+2025-04-16T01:34:34.551Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 25
+2025-04-16T01:34:34.551Z - Staff assigned to complaint - Staff ID: 1161, Complaint ID: 25
+2025-04-16T01:34:34.551Z - Resolution assigned - Complaint ID: 25, Staff ID: 1161
+2025-04-16T01:34:34.551Z - Complaint filed and assigned successfully - Complaint ID: 25, Staff ID: 1161
+2025-04-16T01:34:34.551Z - Fetching payments - User role: user, User ID: 24210264
+2025-04-16T01:34:34.551Z - Payments retrieved successfully - Count: 2
+2025-04-16T01:34:34.551Z - Fetching payments - User role: user, User ID: 24210264
+2025-04-16T01:34:34.551Z - Payments retrieved successfully - Count: 2
+2025-04-16T01:34:34.551Z - Authentication check requested
+2025-04-16T01:34:34.551Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:34:34.551Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:34:34.551Z - Authentication check requested
+2025-04-16T01:34:34.551Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:34:34.551Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:34:34.551Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:34:34.551Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:34:34.551Z - Fetching complaints - User role: user, User ID: 24210264
+2025-04-16T01:34:34.551Z - Complaints retrieved successfully - Count: 4
+2025-04-16T01:34:34.551Z - Fetching complaints - User role: user, User ID: 24210264
+2025-04-16T01:34:34.551Z - Complaints retrieved successfully - Count: 4
+2025-04-16T01:34:34.551Z - Authentication check requested
+2025-04-16T01:34:34.551Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:34:34.551Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:34:34.551Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:34:34.551Z - Authentication check requested
+2025-04-16T01:34:34.551Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:34:34.551Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:34:34.551Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:34:34.551Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:42:21.049Z - Server running on http://localhost:4000
+2025-04-16T01:42:21.049Z - Server started - Connected to both databases
+2025-04-16T01:42:45.478Z - Server started - Connected to both databases
+2025-04-16T01:42:45.478Z - Server running on http://localhost:4000
+2025-04-16T01:43:03.685Z - Server started - Connected to both databases
+2025-04-16T01:43:03.685Z - Server running on http://localhost:4000
+2025-04-16T01:43:20.794Z - Server started - Connected to both databases
+2025-04-16T01:43:20.794Z - Server running on http://localhost:4000
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching complaints - User role: user, User ID: undefined
+2025-04-16T01:43:20.794Z - Complaints retrieved successfully - Count: 0
+2025-04-16T01:43:20.794Z - Fetching complaints - User role: user, User ID: undefined
+2025-04-16T01:43:20.794Z - Complaints retrieved successfully - Count: 0
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching payments - User role: user, User ID: undefined
+2025-04-16T01:43:20.794Z - Payments retrieved successfully - Count: 0
+2025-04-16T01:43:20.794Z - Fetching payments - User role: user, User ID: undefined
+2025-04-16T01:43:20.794Z - Payments retrieved successfully - Count: 0
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:23:22.000Z
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Login failed - Missing credentials
+2025-04-16T01:43:20.794Z - Login attempt - Username: sm
+2025-04-16T01:43:20.794Z - Login attempt - Username: Smita
+2025-04-16T01:43:20.794Z - Login successful - User: Smita, Role: user, MemberId: 24210264
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:44:41.000Z
+2025-04-16T01:43:20.794Z - Authentication check requested
+2025-04-16T01:43:20.794Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:43:20.794Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:44:41.000Z
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - User not authenticated
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:43:20.794Z - Fetching user portfolio - Customer ID: undefined
+2025-04-16T01:43:20.794Z - Portfolio retrieved successfully - Customer ID: undefined, Items: 0
+2025-04-16T01:45:54.301Z - Server started - Connected to both databases
+2025-04-16T01:45:54.301Z - Server running on http://localhost:4000
+2025-04-16T01:46:25.684Z - Server started - Connected to both databases
+2025-04-16T01:46:25.684Z - Server running on http://localhost:4000
+2025-04-16T01:46:25.684Z - Login attempt - Username: Smita
+2025-04-16T01:46:25.684Z - Login successful - User: Smita, Role: user, MemberId: 24210264
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 2
+2025-04-16T01:46:25.684Z - New order request - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Order placed successfully - Order ID: 42
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Payment attempt - Customer ID: 24210264, Order ID: 42, Payment Mode: Credit Card
+2025-04-16T01:46:25.684Z - Customer found - Name: Smita, Payment ID: 1042
+2025-04-16T01:46:25.684Z - Order verified - Order ID: 42, Amount: 108.00
+2025-04-16T01:46:25.684Z - Transaction recorded - Payment ID: 1042
+2025-04-16T01:46:25.684Z - Payment successful - Payment ID: 1042, Amount: 108.00, Order ID: 42
+2025-04-16T01:46:25.684Z - Complaint filing attempt - Order ID: 42, Type: Faded
+2025-04-16T01:46:25.684Z - Complaint created - ID: 26, Order ID: 42
+2025-04-16T01:46:25.684Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 26
+2025-04-16T01:46:25.684Z - Staff assigned to complaint - Staff ID: 24210120, Complaint ID: 26
+2025-04-16T01:46:25.684Z - Resolution assignment failed - Complaint ID: 26, Staff ID: 24210120, Error: Unknown column 'Assignment_Date' in 'field list'
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 3
+2025-04-16T01:46:25.684Z - New order request - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Order placed successfully - Order ID: 43
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Authentication check requested
+2025-04-16T01:46:25.684Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:46:25.684Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 4
+2025-04-16T01:46:25.684Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:46:25.684Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 4
+2025-04-16T01:46:25.684Z - Payment attempt - Customer ID: 24210264, Order ID: 43, Payment Mode: Credit Card
+2025-04-16T01:46:25.684Z - Customer found - Name: Smita, Payment ID: 1043
+2025-04-16T01:46:25.684Z - Order verified - Order ID: 43, Amount: 100.00
+2025-04-16T01:46:25.684Z - Transaction recorded - Payment ID: 1043
+2025-04-16T01:46:25.684Z - Payment successful - Payment ID: 1043, Amount: 100.00, Order ID: 43
+2025-04-16T01:46:25.684Z - Complaint filing attempt - Order ID: 43, Type: Damaged
+2025-04-16T01:46:25.684Z - Complaint created - ID: 27, Order ID: 43
+2025-04-16T01:46:25.684Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 27
+2025-04-16T01:46:25.684Z - Staff assigned to complaint - Staff ID: 2116, Complaint ID: 27
+2025-04-16T01:46:25.684Z - Resolution assignment failed - Complaint ID: 27, Staff ID: 2116, Error: Unknown column 'Assignment_Date' in 'field list'
+2025-04-16T01:56:03.339Z - Server started - Connected to both databases
+2025-04-16T01:56:03.339Z - Server running on http://localhost:4000
+2025-04-16T01:56:03.339Z - Complaint filing attempt - Order ID: 43, Type: Damaged
+2025-04-16T01:56:03.339Z - Complaint created - ID: 28, Order ID: 43
+2025-04-16T01:56:03.339Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 28
+2025-04-16T01:56:03.339Z - Staff assigned to complaint - Staff ID: 1164, Complaint ID: 28
+2025-04-16T01:56:03.339Z - Resolution assignment failed - Complaint ID: 28, Staff ID: 1164, Error: Unknown column 'Assignment_Date' in 'field list'
+2025-04-16T01:56:03.339Z - Authentication check requested
+2025-04-16T01:56:03.339Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:56:03.339Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:56:03.339Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:56:03.339Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 4
+2025-04-16T01:56:03.339Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:56:03.339Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 4
+2025-04-16T01:56:03.339Z - New order request - Customer ID: 24210264
+2025-04-16T01:56:03.339Z - Order placed successfully - Order ID: 44
+2025-04-16T01:56:03.339Z - Authentication check requested
+2025-04-16T01:56:03.339Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:56:03.339Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:56:03.339Z - Authentication check requested
+2025-04-16T01:56:03.339Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T01:56:03.339Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T01:56:03.339Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:56:03.339Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 5
+2025-04-16T01:56:03.339Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T01:56:03.339Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 5
+2025-04-16T01:56:03.339Z - Payment attempt - Customer ID: 24210264, Order ID: 44, Payment Mode: Credit Card
+2025-04-16T01:56:03.339Z - Customer found - Name: Smita, Payment ID: 1044
+2025-04-16T01:56:03.339Z - Order verified - Order ID: 44, Amount: 162.00
+2025-04-16T01:56:03.339Z - Transaction recorded - Payment ID: 1044
+2025-04-16T01:56:03.339Z - Payment successful - Payment ID: 1044, Amount: 162.00, Order ID: 44
+2025-04-16T01:56:03.339Z - Complaint filing attempt - Order ID: 44, Type: Damaged
+2025-04-16T01:56:03.339Z - Complaint created - ID: 29, Order ID: 44
+2025-04-16T01:56:03.339Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 29
+2025-04-16T01:56:03.339Z - Staff assigned to complaint - Staff ID: 1164, Complaint ID: 29
+2025-04-16T01:56:03.339Z - Resolution assignment failed - Complaint ID: 29, Staff ID: 1164, Error: Unknown column 'Assignment_Date' in 'field list'
+2025-04-16T01:56:03.339Z - Complaint filing attempt - Order ID: 44, Type: Damaged
+2025-04-16T01:56:03.339Z - Complaint created - ID: 30, Order ID: 44
+2025-04-16T01:56:03.339Z - Complaint linked to customer - Customer ID: 24210264, Complaint ID: 30
+2025-04-16T01:56:03.339Z - Staff assigned to complaint - Staff ID: 24210120, Complaint ID: 30
+2025-04-16T01:56:03.339Z - Resolution assignment failed - Complaint ID: 30, Staff ID: 24210120, Error: Unknown column 'Assignment_Date' in 'field list'
+2025-04-16T01:57:42.110Z - Server started - Connected to both databases
+2025-04-16T01:57:42.110Z - Server running on http://localhost:4000
+2025-04-16T01:58:38.279Z - Server started - Connected to both databases
+2025-04-16T01:58:38.279Z - Server running on http://localhost:4000
+2025-04-16T01:59:02.750Z - Server started - Connected to both databases
+2025-04-16T01:59:02.750Z - Server running on http://localhost:4000
+2025-04-16T02:01:12.122Z - Server started - Connected to both databases
+2025-04-16T02:01:12.122Z - Server running on http://localhost:4000
+2025-04-16T02:01:34.570Z - Server started - Connected to both databases
+2025-04-16T02:01:34.570Z - Server running on http://localhost:4000
+2025-04-16T02:02:32.546Z - Server started - Connected to both databases
+2025-04-16T02:02:32.546Z - Server running on http://localhost:4000
+2025-04-16T02:02:46.398Z - Server started - Connected to both databases
+2025-04-16T02:02:46.398Z - Server running on http://localhost:4000
+2025-04-16T02:02:54.173Z - Server started - Connected to both databases
+2025-04-16T02:02:54.173Z - Server running on http://localhost:4000
+2025-04-16T02:02:54.173Z - Resolution assignment successful - Complaint ID: 31, Staff ID: 1158
+2025-04-16T02:02:54.173Z - Complaint 31 filed successfully
+2025-04-16T02:02:54.173Z - New order request - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Order placed successfully - Order ID: 45
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T02:02:54.173Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 6
+2025-04-16T02:02:54.173Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 6
+2025-04-16T02:02:54.173Z - Payment attempt - Customer ID: 24210264, Order ID: 45, Payment Mode: Credit Card
+2025-04-16T02:02:54.173Z - Customer found - Name: Smita, Payment ID: 1045
+2025-04-16T02:02:54.173Z - Order verified - Order ID: 45, Amount: 120.00
+2025-04-16T02:02:54.173Z - Transaction recorded - Payment ID: 1045
+2025-04-16T02:02:54.173Z - Payment successful - Payment ID: 1045, Amount: 120.00, Order ID: 45
+2025-04-16T02:02:54.173Z - Resolution assignment successful - Complaint ID: 32, Staff ID: 1158
+2025-04-16T02:02:54.173Z - Complaint 32 filed successfully
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T02:02:54.173Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 6
+2025-04-16T02:02:54.173Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 6
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Smita, MemberId: 24210264, Role: user
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Smita, Role: user, Expiry: 2025-04-17T01:47:00.000Z
+2025-04-16T02:02:54.173Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 6
+2025-04-16T02:02:54.173Z - Fetching user portfolio - Customer ID: 24210264
+2025-04-16T02:02:54.173Z - Portfolio retrieved successfully - Customer ID: 24210264, Items: 6
+2025-04-16T02:02:54.173Z - Signup attempt - Username: Jayesh, Email: jayesh@gmail.com, Role: admin
+2025-04-16T02:02:54.173Z - Member created successfully - MemberID: 24210274
+2025-04-16T02:02:54.173Z - Login credentials created successfully - MemberID: 24210274
+2025-04-16T02:02:54.173Z - Member added to group successfully - MemberID: 24210274, GroupID: 10
+2025-04-16T02:02:54.173Z - Successfully created staff record - MemberID: 24210274
+2025-04-16T02:02:54.173Z - Failed to insert into images - MemberID: 24210274, Error: Table 'cs432g10.images' doesn't exist
+2025-04-16T02:02:54.173Z - Signup completed successfully - MemberID: 24210274, Username: Jayesh, Role: admin
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:06:34.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:06:34.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Login attempt - Username: J
+2025-04-16T02:02:54.173Z - Login failed - Missing credentials
+2025-04-16T02:02:54.173Z - Login attempt - Username: Jayesh
+2025-04-16T02:02:54.173Z - Login successful - User: Jayesh, Role: admin, MemberId: 24210274
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Order status update request - Order ID: 23, New Status: Picked up
+2025-04-16T02:02:54.173Z - Order status updated successfully - Order ID: 23, New Status: Picked up
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching payments - User role: admin, User ID: 24210274
+2025-04-16T02:02:54.173Z - Payments retrieved successfully - Count: 11
+2025-04-16T02:02:54.173Z - Fetching payments - User role: admin, User ID: 24210274
+2025-04-16T02:02:54.173Z - Payments retrieved successfully - Count: 11
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Authentication check requested
+2025-04-16T02:02:54.173Z - Token verified for user: Jayesh, MemberId: 24210274, Role: admin
+2025-04-16T02:02:54.173Z - User authenticated successfully - Username: Jayesh, Role: admin, Expiry: 2025-04-17T02:10:37.000Z
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:02:54.173Z - Fetching all portfolios - User role: admin
+2025-04-16T02:02:54.173Z - All portfolios retrieved successfully - Count: 26
+2025-04-16T02:14:02.655Z - Server started - Connected to both databases
+2025-04-16T02:14:02.655Z - Server running on http://localhost:4000

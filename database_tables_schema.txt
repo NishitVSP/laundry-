@@ -1,0 +1,173 @@
+Tables under CIMS database using connection2 {
+CREATE TABLE members (
+  UserName varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  ID int NOT NULL AUTO_INCREMENT,
+  emailID varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  DoB date DEFAULT NULL,
+  PRIMARY KEY (ID),
+  UNIQUE KEY unique_UserName (UserName)
+) ENGINE=InnoDB AUTO_INCREMENT=2204 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE Login (
+  MemberID varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  Password varchar(200) NOT NULL,
+  Session varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  Expiry int DEFAULT NULL,
+  Role varchar(10) NOT NULL,
+  PRIMARY KEY (MemberID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE MemberGroupMapping (
+  MemberID int NOT NULL,
+  GroupID int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE images (
+  MemberID int NOT NULL,
+  ImagePath varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE images (
+  MemberID int NOT NULL,
+  ImagePath varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+}
+
+Tables under cs432g10 database using connection21 {
+CREATE TABLE customers (
+  customer_id int NOT NULL AUTO_INCREMENT,
+  customer_name varchar(30) NOT NULL,
+  customer_image blob,
+  Age int NOT NULL,
+  customer_email varchar(50) NOT NULL,
+  customer_phone varchar(15) DEFAULT NULL,
+  customer_address varchar(200) DEFAULT NULL,
+  PRIMARY KEY (customer_id),
+  UNIQUE KEY customer_phone (customer_phone),
+  CONSTRAINT customers_chk_1 CHECK ((Age > 15))
+) ENGINE=InnoDB AUTO_INCREMENT=1434 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE complaints (
+  complaint_id int NOT NULL AUTO_INCREMENT,
+  order_id int NOT NULL,
+  complaint_type enum('Missing','Damaged','Faded','Other') NOT NULL,
+  complaint_details varchar(300) NOT NULL,
+  complaint_status enum('Open','In Progress','Resolved') NOT NULL,
+  PRIMARY KEY (complaint_id),
+  KEY order_id (order_id),
+  CONSTRAINT complaints_ibfk_1 FOREIGN KEY (order_id) REFERENCES orders (order_id) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE consists (
+  order_id int NOT NULL,
+  item_id int NOT NULL,
+  Quantity int NOT NULL,
+  PRIMARY KEY (order_id,item_id),
+  KEY item_id (item_id),
+  CONSTRAINT consists_ibfk_1 FOREIGN KEY (order_id) REFERENCES orders (order_id) ON DELETE CASCADE,
+  CONSTRAINT consists_ibfk_2 FOREIGN KEY (item_id) REFERENCES items (item_id) ON DELETE CASCADE,
+  CONSTRAINT consists_chk_1 CHECK ((Quantity >= 1))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE do_payment (
+  customer_id int NOT NULL,
+  payment_id int NOT NULL,
+  Payment_Mode enum('Cash','Credit Card','Debit Card','Internet Banking','UPI') NOT NULL,
+  Amount decimal(10,2) NOT NULL,
+  order_id int NOT NULL,
+  PRIMARY KEY (payment_id,customer_id,order_id),
+  UNIQUE KEY payment_id (payment_id),
+  KEY customer_id (customer_id),
+  KEY order_id (order_id),
+  CONSTRAINT do_payment_ibfk_1 FOREIGN KEY (customer_id) REFERENCES customers (customer_id) ON DELETE CASCADE,
+  CONSTRAINT do_payment_ibfk_2 FOREIGN KEY (payment_id) REFERENCES payments (TransactionID) ON DELETE CASCADE,
+  CONSTRAINT do_payment_ibfk_3 FOREIGN KEY (order_id) REFERENCES orders (order_id) ON DELETE CASCADE,
+  CONSTRAINT do_payment_chk_1 CHECK ((Amount >= 50))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE files (
+  customer_id int NOT NULL,
+  complaint_id int NOT NULL,
+  Complaint_Date date NOT NULL,
+  PRIMARY KEY (customer_id,complaint_id),
+  KEY complaint_id (complaint_id),
+  CONSTRAINT files_ibfk_1 FOREIGN KEY (customer_id) REFERENCES customers (customer_id) ON DELETE CASCADE,
+  CONSTRAINT files_ibfk_2 FOREIGN KEY (complaint_id) REFERENCES complaints (complaint_id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE handles (
+  staff_id int NOT NULL,
+  order_id int NOT NULL,
+  Assignment_Date date NOT NULL,
+  PRIMARY KEY (staff_id,order_id),
+  KEY order_id (order_id),
+  CONSTRAINT handles_ibfk_1 FOREIGN KEY (staff_id) REFERENCES staff (staff_id) ON DELETE CASCADE,
+  CONSTRAINT handles_ibfk_2 FOREIGN KEY (order_id) REFERENCES orders (order_id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE items (
+  item_id int NOT NULL,
+  item_type enum('T-shirt','Shirt','Pants','Dress','Jacket','Other') NOT NULL,
+  item_details varchar(200) NOT NULL,
+  Price decimal(10,2) NOT NULL,
+  PRIMARY KEY (item_id),
+  CONSTRAINT items_chk_1 CHECK ((Price >= 10))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE orders (
+  order_id int NOT NULL AUTO_INCREMENT,
+  customer_id int NOT NULL,
+  order_status enum('Picked up','Pending','Delivered') NOT NULL,
+  Total_Amount decimal(10,2) NOT NULL,
+  Pickup_Date date NOT NULL,
+  Delivery_Date date DEFAULT NULL,
+  PRIMARY KEY (order_id),
+  KEY customer_id (customer_id),
+  CONSTRAINT orders_ibfk_1 FOREIGN KEY (customer_id) REFERENCES customers (customer_id) ON DELETE CASCADE,
+  CONSTRAINT orders_chk_1 CHECK ((Total_Amount > 0)),
+  CONSTRAINT orders_chk_2 CHECK ((Delivery_Date >= Pickup_Date))
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE places (
+  customer_id int NOT NULL,
+  order_id int NOT NULL,
+  order_date date NOT NULL,
+  PRIMARY KEY (customer_id,order_id),
+  UNIQUE KEY order_id (order_id),
+  CONSTRAINT places_ibfk_1 FOREIGN KEY (customer_id) REFERENCES customers (customer_id) ON DELETE CASCADE,
+  CONSTRAINT places_ibfk_2 FOREIGN KEY (order_id) REFERENCES orders (order_id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE resolves (
+  staff_id int NOT NULL,
+  complaint_id int NOT NULL,
+  Complaint_resolve_Date date ,
+  PRIMARY KEY (staff_id,complaint_id),
+  UNIQUE KEY complaint_id (complaint_id),
+  CONSTRAINT resolves_ibfk_1 FOREIGN KEY (staff_id) REFERENCES staff (staff_id) ON DELETE CASCADE,
+  CONSTRAINT resolves_ibfk_2 FOREIGN KEY (complaint_id) REFERENCES complaints (complaint_id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE staff (
+  staff_id int NOT NULL AUTO_INCREMENT,
+  staff_name varchar(30) NOT NULL,
+  staff_image blob,
+  staff_age int NOT NULL,
+  staff_position enum('Manager','Laundry Operator','Delivery Person','Customer Service') DEFAULT NULL,
+  staff_email varchar(50) NOT NULL,
+  staff_phone varchar(15) DEFAULT NULL,
+  hire_date date NOT NULL,
+  PRIMARY KEY (staff_id),
+  UNIQUE KEY staff_phone (staff_phone),
+  CONSTRAINT staff_chk_1 CHECK ((staff_age >= 18))
+) ENGINE=InnoDB AUTO_INCREMENT=2142 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE payments (
+  TransactionID int NOT NULL,
+  Sender varchar(50) NOT NULL,
+  Receiver varchar(50) NOT NULL,
+  Date date NOT NULL,
+  PRIMARY KEY (TransactionID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+}

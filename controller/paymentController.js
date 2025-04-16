@@ -47,7 +47,7 @@ export const makePayment = (req, res) => {
 
         const sender = customerResults[0].customer_name;
         const receiver = "FreshWash.INC";
-        const payment_id = parseInt(`${customer_id}${order_id}`);
+        const payment_id = parseInt(`10${order_id}`);
         logger(`Customer found - Name: ${sender}, Payment ID: ${payment_id}`, req.user?.isAuthenticated);
 
         // Step 1: Fetch order amount and validate ownership

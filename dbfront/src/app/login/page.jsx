@@ -42,11 +42,19 @@ export default function LoginPage() {
 
   return (
     <div className="p-10 max-w-md mx-auto">
+      <div className="flex justify-center mb-8">
+        <div className="text-4xl font-bold bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md select-none">
+          <span className="mr-1">Fresh</span>
+          <span className="text-blue-200">Wash</span>
+          <span className="text-xs ml-1 align-top">™</span>
+        </div>
+      </div>
+      
       <h1 className="text-2xl font-bold mb-4">Login</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input name="username" placeholder="Email" onChange={handleChange} className="w-full p-2 border" />
         <input name="password" type="password" placeholder="Password" onChange={handleChange} className="w-full p-2 border" />
-        <button type="submit" className="bg-green-600 text-white p-2 w-full">Login</button>
+        <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white p-2 w-full">Login</button>
       </form>
       <p className="mt-4 text-sm">
         Don't have an account?{' '}

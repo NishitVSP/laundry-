@@ -56,6 +56,14 @@ export default function SignupPage() {
 
   return (
     <div className="p-10 max-w-md mx-auto">
+      <div className="flex justify-center mb-8">
+        <div className="text-4xl font-bold bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md select-none">
+          <span className="mr-1">Fresh</span>
+          <span className="text-blue-200">Wash</span>
+          <span className="text-xs ml-1 align-top">™</span>
+        </div>
+      </div>
+      
       <h1 className="text-2xl font-bold mb-4">Signup</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input name="username" placeholder="Username" value={form.username} onChange={handleChange} className="w-full p-2 border" />
